@@ -8,7 +8,8 @@
 
     <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
 
-
+    <link rel="stylesheet" href="./styles/pokemon-cards.css">
+    <link rel="stylesheet" href="./styles/loader.css">
     <link rel="stylesheet" href="./styles/assets.css">
     <link rel="stylesheet" href="./styles/fonts.css">
     <link rel="stylesheet" href="./styles/header.css">
@@ -27,14 +28,16 @@
         <div class="header_wrapper">
             <a href="#/index.html">Pokédex</a>
             <div class="search desktop">
-                <input data-id="search-input" id="pokemonSearch" type="text" value=""
+                <input data-id="search-input" id="pokemonSearch" oninput="searchPokemon()" type="text" value=""
                     placeholder="Pokémon Namen eingeben (min. 3 Buchstaben)">
             </div>
         </div>
     </header>
 
     <main data-id="content">
+        <section id="fetchPokemon" class="fetch_pokemon">
 
+        </section>
     </main>
 
     <footer>
@@ -50,6 +53,13 @@
             </ul>
         </div>
     </footer>
+
+    <nav class="mobile_nav">
+        <div class="search">
+            <input data-id="search-input-mobile" id="pokemonSearchMobile" oninput="searchPokemon()" type="text" value=""
+                placeholder="Pokémon (min. 3 Buchstaben)">
+        </div>
+    </nav>
 </body>
 
 </html>

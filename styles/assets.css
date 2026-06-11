@@ -1,3 +1,9 @@
+.card_button {
+    background: none;
+    border: none;
+    outline: none;
+}
+
 .search input {
     width: 100%;
     min-height: 46px;
@@ -18,4 +24,10 @@
 .search input:focus {
     border-color: var(--accent-primary);
     box-shadow: 0 0 12px rgba(255, 203, 5, 0.15);
+}
+
+@media (max-width: 768px) {
+    .search input {
+        padding: 5px;
+    }
 }
