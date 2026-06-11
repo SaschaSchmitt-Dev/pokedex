@@ -4,6 +4,68 @@
     outline: none;
 }
 
+.load_more_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin: 32px auto;
+    padding: 14px 32px;
+    border: none;
+    border-radius: 999px;
+    background: linear-gradient(135deg,
+            rgb(255, 203, 5) 0%,
+            rgb(247, 181, 0) 100%);
+    font-family: 'JetBrains Mono';
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: rgb(29, 43, 146);
+    cursor: pointer;
+    transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease,
+        filter 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.load_more_button:hover {
+    transform: translateY(-2px) scale(1.04);
+    box-shadow:
+        0 10px 24px rgba(255, 203, 5, 0.45),
+        0 0 35px rgba(255, 203, 5, 0.3);
+    filter: brightness(1.08);
+    text-shadow:
+        -0.1px -0.1px 0 rgba(0, 0, 0, 0.4),
+        0.1px -0.1px 0 rgba(0, 0, 0, 0.4),
+        -0.1px 0.1px 0 rgba(0, 0, 0, 0.4),
+        0.1px 0.1px 0 rgba(0, 0, 0, 0.4),
+        0 0 4px rgba(255, 255, 255, 0.35);
+}
+
+.load_more_button:active {
+    transform: scale(0.98);
+}
+
+.load_more_button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -120%;
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.4),
+            transparent);
+    transition: left 0.6s ease;
+}
+
+.load_more_button:hover::before {
+    left: 150%;
+}
+
 .search input {
     width: 100%;
     min-height: 46px;

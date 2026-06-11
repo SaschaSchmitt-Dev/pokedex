@@ -80,3 +80,9 @@ footer {
         background-position: -200% center;
     }
 }
+
+@media (max-width: 768px) {
+    footer {
+        margin-bottom: 80px;
+    }
+}

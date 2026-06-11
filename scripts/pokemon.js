@@ -10,12 +10,14 @@ async function buildPokemonList(searchResult) {
 }
 
 async function showPokemonList(searchResults, searchResult) {
-    searchResults.innerHTML = getLoaderTemplate();
+    showLoader();
 
     try {
         await updatePokemonList(searchResults, searchResult);
     } catch (error) {
         handlePokemonError(searchResults, error);
+    } finally {
+        hideLoader();
     }
 }
 
@@ -70,12 +72,14 @@ function getPokemonTypeGermanName(typeData, pokemonType) {
 
 async function fetchPokemon(id) {
     const searchResult = document.getElementById("fetchPokemon");
-    searchResult.innerHTML = getLoaderTemplate();
+    showLoader();
 
     try {
         await renderSinglePokemon(searchResult, id);
     } catch (error) {
         handlePokemonError(searchResult, error);
+    } finally {
+        hideLoader();
     }
 }
 

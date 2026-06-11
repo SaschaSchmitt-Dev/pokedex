@@ -1,12 +1,15 @@
 let allPokemon = [];
 let allPokemonUpdated = [];
 let searchablePokemon = [];
+let loadedPokemonCards = [];
+const startValue = 20;
 
 async function initPokemonDatabase() {
     await loadPokemonList();
     loadUpdatedPokemonFromLocalStorage();
     await checkCurrentPokemonCount();
     searchablePokemon = allPokemon.concat(allPokemonUpdated);
+    await loadInitialPokemonCards();
     console.log("Suchbare Pokémon:", searchablePokemon);
 }
 
@@ -100,7 +103,7 @@ function searchPokemon() {
     const searchInput = getPokemonSearchInput();
 
     if (searchInput.length < 3) {
-        clearPokemonResults();
+        loadInitialPokemonCards();
         return;
     }
 
@@ -112,10 +115,6 @@ function getPokemonSearchInput() {
         document.getElementById("pokemonSearch").value ||
         document.getElementById("pokemonSearchMobile").value
     ).trim().toLowerCase();
-}
-
-function clearPokemonResults() {
-    document.getElementById("fetchPokemon").innerHTML = "";
 }
 
 function showPokemonSearchResult(searchInput) {
@@ -172,4 +171,65 @@ async function fetchPokeApi(url) {
     pokeApiCache.set(url, data);
 
     return data;
+}
+
+async function loadInitialPokemonCards() {
+    const savedCount = localStorage.getItem("loadedPokemonCount");
+
+    if (savedCount) {
+        await loadPokemonCardsByCount(Number(savedCount));
+        return;
+    }
+
+    await loadMorePokemonCards();
+}
+
+async function loadPokemonCardsByCount(count) {
+    const pokemonToLoad = searchablePokemon.slice(0, count);
+
+    loadedPokemonCards = await Promise.all(
+        pokemonToLoad.map(function (pokemon) {
+            return loadOnePokemonCardData(pokemon.id);
+        })
+    );
+
+    renderLoadedPokemonCards();
+}
+
+async function loadMorePokemonCards() {
+    const startIndex = loadedPokemonCards.length;
+    const endIndex = startIndex + startValue;
+    const nextPokemon = searchablePokemon.slice(startIndex, endIndex);
+
+    if (!nextPokemon.length) return;
+
+    const newPokemonCards = await Promise.all(nextPokemon.map(function (pokemon) {
+        return loadOnePokemonCardData(pokemon.id);
+    })
+    );
+
+    loadedPokemonCards = loadedPokemonCards.concat(newPokemonCards);
+    localStorage.setItem("loadedPokemonCount", loadedPokemonCards.length);
+    renderLoadedPokemonCards();
+}
+
+function renderLoadedPokemonCards() {
+    const searchResults = document.getElementById("fetchPokemon");
+    searchResults.innerHTML = getSortedPokemonListTemplate(loadedPokemonCards);
+}
+
+function showLoader() {
+    const fetchPokemon = document.getElementById("fetchPokemon");
+
+    if (!document.getElementById("showLoader")) {
+        fetchPokemon.insertAdjacentHTML("beforeend", getLoaderTemplate());
+    }
+}
+
+function hideLoader() {
+    const loader = document.getElementById("showLoader");
+
+    if (loader) {
+        loader.remove();
+    }
 }
