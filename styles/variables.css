@@ -1,0 +1,11 @@
+:root {
+    --bg-primary: rgb(15, 17, 23);
+    --bg-secondary: rgb(23, 27, 36);
+    --panel-bg: rgba(24, 28, 38, 0.92);
+    --accent-primary: rgb(255, 203, 5);
+    --accent-secondary: rgb(59, 76, 202);
+    --text-primary: rgb(245, 247, 250);
+    --text-secondary: rgb(201, 209, 217);
+    --text-muted: rgb(139, 148, 158);
+    --border-color: rgba(255, 203, 5, 0.2);
+}

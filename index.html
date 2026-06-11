@@ -8,20 +8,47 @@
 
     <link rel="shortcut icon" href="./assets/icons/favicon.ico" type="image/x-icon">
 
+
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/variables.css">
     <link rel="stylesheet" href="style.css">
 
+    <script src="./scripts/templates.js" defer></script>
+    <script src="./scripts/pokemon.js" defer></script>
+    <script src="./scripts/dialog.js" defer></script>
     <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-
+        <div class="header_wrapper">
+            <a href="#/index.html">Pokédex</a>
+            <div class="search desktop">
+                <input data-id="search-input" id="pokemonSearch" type="text" value=""
+                    placeholder="Pokémon Namen eingeben (min. 3 Buchstaben)">
+            </div>
+        </div>
     </header>
+
     <main data-id="content">
 
     </main>
-    <footer>
 
+    <footer>
+        <div class="footer_wrapper">
+            <p>© created by Sascha Schmitt</p>
+            <ul class="footer_links">
+                <li>
+                    <a href="./subpages/legal-notice.html">Impressum</a>
+                </li>
+                <li>
+                    <a href="./subpages/privacy-policy.html">Datenschutz</a>
+                </li>
+            </ul>
+        </div>
     </footer>
 </body>
 
