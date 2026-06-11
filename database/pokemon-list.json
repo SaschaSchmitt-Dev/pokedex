@@ -1,0 +1,5127 @@
+[
+    {
+        "id": 1,
+        "germanName": "Bisasam",
+        "englishName": "Bulbasaur"
+    },
+    {
+        "id": 2,
+        "germanName": "Bisaknosp",
+        "englishName": "Ivysaur"
+    },
+    {
+        "id": 3,
+        "germanName": "Bisaflor",
+        "englishName": "Venusaur"
+    },
+    {
+        "id": 4,
+        "germanName": "Glumanda",
+        "englishName": "Charmander"
+    },
+    {
+        "id": 5,
+        "germanName": "Glutexo",
+        "englishName": "Charmeleon"
+    },
+    {
+        "id": 6,
+        "germanName": "Glurak",
+        "englishName": "Charizard"
+    },
+    {
+        "id": 7,
+        "germanName": "Schiggy",
+        "englishName": "Squirtle"
+    },
+    {
+        "id": 8,
+        "germanName": "Schillok",
+        "englishName": "Wartortle"
+    },
+    {
+        "id": 9,
+        "germanName": "Turtok",
+        "englishName": "Blastoise"
+    },
+    {
+        "id": 10,
+        "germanName": "Raupy",
+        "englishName": "Caterpie"
+    },
+    {
+        "id": 11,
+        "germanName": "Safcon",
+        "englishName": "Metapod"
+    },
+    {
+        "id": 12,
+        "germanName": "Smettbo",
+        "englishName": "Butterfree"
+    },
+    {
+        "id": 13,
+        "germanName": "Hornliu",
+        "englishName": "Weedle"
+    },
+    {
+        "id": 14,
+        "germanName": "Kokuna",
+        "englishName": "Kakuna"
+    },
+    {
+        "id": 15,
+        "germanName": "Bibor",
+        "englishName": "Beedrill"
+    },
+    {
+        "id": 16,
+        "germanName": "Taubsi",
+        "englishName": "Pidgey"
+    },
+    {
+        "id": 17,
+        "germanName": "Tauboga",
+        "englishName": "Pidgeotto"
+    },
+    {
+        "id": 18,
+        "germanName": "Tauboss",
+        "englishName": "Pidgeot"
+    },
+    {
+        "id": 19,
+        "germanName": "Rattfratz",
+        "englishName": "Rattata"
+    },
+    {
+        "id": 20,
+        "germanName": "Rattikarl",
+        "englishName": "Raticate"
+    },
+    {
+        "id": 21,
+        "germanName": "Habitak",
+        "englishName": "Spearow"
+    },
+    {
+        "id": 22,
+        "germanName": "Ibitak",
+        "englishName": "Fearow"
+    },
+    {
+        "id": 23,
+        "germanName": "Rettan",
+        "englishName": "Ekans"
+    },
+    {
+        "id": 24,
+        "germanName": "Arbok",
+        "englishName": "Arbok"
+    },
+    {
+        "id": 25,
+        "germanName": "Pikachu",
+        "englishName": "Pikachu"
+    },
+    {
+        "id": 26,
+        "germanName": "Raichu",
+        "englishName": "Raichu"
+    },
+    {
+        "id": 27,
+        "germanName": "Sandan",
+        "englishName": "Sandshrew"
+    },
+    {
+        "id": 28,
+        "germanName": "Sandamer",
+        "englishName": "Sandslash"
+    },
+    {
+        "id": 29,
+        "germanName": "Nidoran♀",
+        "englishName": "Nidoran♀"
+    },
+    {
+        "id": 30,
+        "germanName": "Nidorina",
+        "englishName": "Nidorina"
+    },
+    {
+        "id": 31,
+        "germanName": "Nidoqueen",
+        "englishName": "Nidoqueen"
+    },
+    {
+        "id": 32,
+        "germanName": "Nidoran♂",
+        "englishName": "Nidoran♂"
+    },
+    {
+        "id": 33,
+        "germanName": "Nidorino",
+        "englishName": "Nidorino"
+    },
+    {
+        "id": 34,
+        "germanName": "Nidoking",
+        "englishName": "Nidoking"
+    },
+    {
+        "id": 35,
+        "germanName": "Piepi",
+        "englishName": "Clefairy"
+    },
+    {
+        "id": 36,
+        "germanName": "Pixi",
+        "englishName": "Clefable"
+    },
+    {
+        "id": 37,
+        "germanName": "Vulpix",
+        "englishName": "Vulpix"
+    },
+    {
+        "id": 38,
+        "germanName": "Vulnona",
+        "englishName": "Ninetales"
+    },
+    {
+        "id": 39,
+        "germanName": "Pummeluff",
+        "englishName": "Jigglypuff"
+    },
+    {
+        "id": 40,
+        "germanName": "Knuddeluff",
+        "englishName": "Wigglytuff"
+    },
+    {
+        "id": 41,
+        "germanName": "Zubat",
+        "englishName": "Zubat"
+    },
+    {
+        "id": 42,
+        "germanName": "Golbat",
+        "englishName": "Golbat"
+    },
+    {
+        "id": 43,
+        "germanName": "Myrapla",
+        "englishName": "Oddish"
+    },
+    {
+        "id": 44,
+        "germanName": "Duflor",
+        "englishName": "Gloom"
+    },
+    {
+        "id": 45,
+        "germanName": "Giflor",
+        "englishName": "Vileplume"
+    },
+    {
+        "id": 46,
+        "germanName": "Paras",
+        "englishName": "Paras"
+    },
+    {
+        "id": 47,
+        "germanName": "Parasek",
+        "englishName": "Parasect"
+    },
+    {
+        "id": 48,
+        "germanName": "Bluzuk",
+        "englishName": "Venonat"
+    },
+    {
+        "id": 49,
+        "germanName": "Omot",
+        "englishName": "Venomoth"
+    },
+    {
+        "id": 50,
+        "germanName": "Digda",
+        "englishName": "Diglett"
+    },
+    {
+        "id": 51,
+        "germanName": "Digdri",
+        "englishName": "Dugtrio"
+    },
+    {
+        "id": 52,
+        "germanName": "Mauzi",
+        "englishName": "Meowth"
+    },
+    {
+        "id": 53,
+        "germanName": "Snobilikat",
+        "englishName": "Persian"
+    },
+    {
+        "id": 54,
+        "germanName": "Enton",
+        "englishName": "Psyduck"
+    },
+    {
+        "id": 55,
+        "germanName": "Entoron",
+        "englishName": "Golduck"
+    },
+    {
+        "id": 56,
+        "germanName": "Menki",
+        "englishName": "Mankey"
+    },
+    {
+        "id": 57,
+        "germanName": "Rasaff",
+        "englishName": "Primeape"
+    },
+    {
+        "id": 58,
+        "germanName": "Fukano",
+        "englishName": "Growlithe"
+    },
+    {
+        "id": 59,
+        "germanName": "Arkani",
+        "englishName": "Arcanine"
+    },
+    {
+        "id": 60,
+        "germanName": "Quapsel",
+        "englishName": "Poliwag"
+    },
+    {
+        "id": 61,
+        "germanName": "Quaputzi",
+        "englishName": "Poliwhirl"
+    },
+    {
+        "id": 62,
+        "germanName": "Quappo",
+        "englishName": "Poliwrath"
+    },
+    {
+        "id": 63,
+        "germanName": "Abra",
+        "englishName": "Abra"
+    },
+    {
+        "id": 64,
+        "germanName": "Kadabra",
+        "englishName": "Kadabra"
+    },
+    {
+        "id": 65,
+        "germanName": "Simsala",
+        "englishName": "Alakazam"
+    },
+    {
+        "id": 66,
+        "germanName": "Machollo",
+        "englishName": "Machop"
+    },
+    {
+        "id": 67,
+        "germanName": "Maschock",
+        "englishName": "Machoke"
+    },
+    {
+        "id": 68,
+        "germanName": "Machomei",
+        "englishName": "Machamp"
+    },
+    {
+        "id": 69,
+        "germanName": "Knofensa",
+        "englishName": "Bellsprout"
+    },
+    {
+        "id": 70,
+        "germanName": "Ultrigaria",
+        "englishName": "Weepinbell"
+    },
+    {
+        "id": 71,
+        "germanName": "Sarzenia",
+        "englishName": "Victreebel"
+    },
+    {
+        "id": 72,
+        "germanName": "Tentacha",
+        "englishName": "Tentacool"
+    },
+    {
+        "id": 73,
+        "germanName": "Tentoxa",
+        "englishName": "Tentacruel"
+    },
+    {
+        "id": 74,
+        "germanName": "Kleinstein",
+        "englishName": "Geodude"
+    },
+    {
+        "id": 75,
+        "germanName": "Georok",
+        "englishName": "Graveler"
+    },
+    {
+        "id": 76,
+        "germanName": "Geowaz",
+        "englishName": "Golem"
+    },
+    {
+        "id": 77,
+        "germanName": "Ponita",
+        "englishName": "Ponyta"
+    },
+    {
+        "id": 78,
+        "germanName": "Gallopa",
+        "englishName": "Rapidash"
+    },
+    {
+        "id": 79,
+        "germanName": "Flegmon",
+        "englishName": "Slowpoke"
+    },
+    {
+        "id": 80,
+        "germanName": "Lahmus",
+        "englishName": "Slowbro"
+    },
+    {
+        "id": 81,
+        "germanName": "Magnetilo",
+        "englishName": "Magnemite"
+    },
+    {
+        "id": 82,
+        "germanName": "Magneton",
+        "englishName": "Magneton"
+    },
+    {
+        "id": 83,
+        "germanName": "Porenta",
+        "englishName": "Farfetch’d"
+    },
+    {
+        "id": 84,
+        "germanName": "Dodu",
+        "englishName": "Doduo"
+    },
+    {
+        "id": 85,
+        "germanName": "Dodri",
+        "englishName": "Dodrio"
+    },
+    {
+        "id": 86,
+        "germanName": "Jurob",
+        "englishName": "Seel"
+    },
+    {
+        "id": 87,
+        "germanName": "Jugong",
+        "englishName": "Dewgong"
+    },
+    {
+        "id": 88,
+        "germanName": "Sleima",
+        "englishName": "Grimer"
+    },
+    {
+        "id": 89,
+        "germanName": "Sleimok",
+        "englishName": "Muk"
+    },
+    {
+        "id": 90,
+        "germanName": "Muschas",
+        "englishName": "Shellder"
+    },
+    {
+        "id": 91,
+        "germanName": "Austos",
+        "englishName": "Cloyster"
+    },
+    {
+        "id": 92,
+        "germanName": "Nebulak",
+        "englishName": "Gastly"
+    },
+    {
+        "id": 93,
+        "germanName": "Alpollo",
+        "englishName": "Haunter"
+    },
+    {
+        "id": 94,
+        "germanName": "Gengar",
+        "englishName": "Gengar"
+    },
+    {
+        "id": 95,
+        "germanName": "Onix",
+        "englishName": "Onix"
+    },
+    {
+        "id": 96,
+        "germanName": "Traumato",
+        "englishName": "Drowzee"
+    },
+    {
+        "id": 97,
+        "germanName": "Hypno",
+        "englishName": "Hypno"
+    },
+    {
+        "id": 98,
+        "germanName": "Krabby",
+        "englishName": "Krabby"
+    },
+    {
+        "id": 99,
+        "germanName": "Kingler",
+        "englishName": "Kingler"
+    },
+    {
+        "id": 100,
+        "germanName": "Voltobal",
+        "englishName": "Voltorb"
+    },
+    {
+        "id": 101,
+        "germanName": "Lektrobal",
+        "englishName": "Electrode"
+    },
+    {
+        "id": 102,
+        "germanName": "Owei",
+        "englishName": "Exeggcute"
+    },
+    {
+        "id": 103,
+        "germanName": "Kokowei",
+        "englishName": "Exeggutor"
+    },
+    {
+        "id": 104,
+        "germanName": "Tragosso",
+        "englishName": "Cubone"
+    },
+    {
+        "id": 105,
+        "germanName": "Knogga",
+        "englishName": "Marowak"
+    },
+    {
+        "id": 106,
+        "germanName": "Kicklee",
+        "englishName": "Hitmonlee"
+    },
+    {
+        "id": 107,
+        "germanName": "Nockchan",
+        "englishName": "Hitmonchan"
+    },
+    {
+        "id": 108,
+        "germanName": "Schlurp",
+        "englishName": "Lickitung"
+    },
+    {
+        "id": 109,
+        "germanName": "Smogon",
+        "englishName": "Koffing"
+    },
+    {
+        "id": 110,
+        "germanName": "Smogmog",
+        "englishName": "Weezing"
+    },
+    {
+        "id": 111,
+        "germanName": "Rihorn",
+        "englishName": "Rhyhorn"
+    },
+    {
+        "id": 112,
+        "germanName": "Rizeros",
+        "englishName": "Rhydon"
+    },
+    {
+        "id": 113,
+        "germanName": "Chaneira",
+        "englishName": "Chansey"
+    },
+    {
+        "id": 114,
+        "germanName": "Tangela",
+        "englishName": "Tangela"
+    },
+    {
+        "id": 115,
+        "germanName": "Kangama",
+        "englishName": "Kangaskhan"
+    },
+    {
+        "id": 116,
+        "germanName": "Seeper",
+        "englishName": "Horsea"
+    },
+    {
+        "id": 117,
+        "germanName": "Seemon",
+        "englishName": "Seadra"
+    },
+    {
+        "id": 118,
+        "germanName": "Goldini",
+        "englishName": "Goldeen"
+    },
+    {
+        "id": 119,
+        "germanName": "Golking",
+        "englishName": "Seaking"
+    },
+    {
+        "id": 120,
+        "germanName": "Sterndu",
+        "englishName": "Staryu"
+    },
+    {
+        "id": 121,
+        "germanName": "Starmie",
+        "englishName": "Starmie"
+    },
+    {
+        "id": 122,
+        "germanName": "Pantimos",
+        "englishName": "Mr. Mime"
+    },
+    {
+        "id": 123,
+        "germanName": "Sichlor",
+        "englishName": "Scyther"
+    },
+    {
+        "id": 124,
+        "germanName": "Rossana",
+        "englishName": "Jynx"
+    },
+    {
+        "id": 125,
+        "germanName": "Elektek",
+        "englishName": "Electabuzz"
+    },
+    {
+        "id": 126,
+        "germanName": "Magmar",
+        "englishName": "Magmar"
+    },
+    {
+        "id": 127,
+        "germanName": "Pinsir",
+        "englishName": "Pinsir"
+    },
+    {
+        "id": 128,
+        "germanName": "Tauros",
+        "englishName": "Tauros"
+    },
+    {
+        "id": 129,
+        "germanName": "Karpador",
+        "englishName": "Magikarp"
+    },
+    {
+        "id": 130,
+        "germanName": "Garados",
+        "englishName": "Gyarados"
+    },
+    {
+        "id": 131,
+        "germanName": "Lapras",
+        "englishName": "Lapras"
+    },
+    {
+        "id": 132,
+        "germanName": "Ditto",
+        "englishName": "Ditto"
+    },
+    {
+        "id": 133,
+        "germanName": "Evoli",
+        "englishName": "Eevee"
+    },
+    {
+        "id": 134,
+        "germanName": "Aquana",
+        "englishName": "Vaporeon"
+    },
+    {
+        "id": 135,
+        "germanName": "Blitza",
+        "englishName": "Jolteon"
+    },
+    {
+        "id": 136,
+        "germanName": "Flamara",
+        "englishName": "Flareon"
+    },
+    {
+        "id": 137,
+        "germanName": "Porygon",
+        "englishName": "Porygon"
+    },
+    {
+        "id": 138,
+        "germanName": "Amonitas",
+        "englishName": "Omanyte"
+    },
+    {
+        "id": 139,
+        "germanName": "Amoroso",
+        "englishName": "Omastar"
+    },
+    {
+        "id": 140,
+        "germanName": "Kabuto",
+        "englishName": "Kabuto"
+    },
+    {
+        "id": 141,
+        "germanName": "Kabutops",
+        "englishName": "Kabutops"
+    },
+    {
+        "id": 142,
+        "germanName": "Aerodactyl",
+        "englishName": "Aerodactyl"
+    },
+    {
+        "id": 143,
+        "germanName": "Relaxo",
+        "englishName": "Snorlax"
+    },
+    {
+        "id": 144,
+        "germanName": "Arktos",
+        "englishName": "Articuno"
+    },
+    {
+        "id": 145,
+        "germanName": "Zapdos",
+        "englishName": "Zapdos"
+    },
+    {
+        "id": 146,
+        "germanName": "Lavados",
+        "englishName": "Moltres"
+    },
+    {
+        "id": 147,
+        "germanName": "Dratini",
+        "englishName": "Dratini"
+    },
+    {
+        "id": 148,
+        "germanName": "Dragonir",
+        "englishName": "Dragonair"
+    },
+    {
+        "id": 149,
+        "germanName": "Dragoran",
+        "englishName": "Dragonite"
+    },
+    {
+        "id": 150,
+        "germanName": "Mewtu",
+        "englishName": "Mewtwo"
+    },
+    {
+        "id": 151,
+        "germanName": "Mew",
+        "englishName": "Mew"
+    },
+    {
+        "id": 152,
+        "germanName": "Endivie",
+        "englishName": "Chikorita"
+    },
+    {
+        "id": 153,
+        "germanName": "Lorblatt",
+        "englishName": "Bayleef"
+    },
+    {
+        "id": 154,
+        "germanName": "Meganie",
+        "englishName": "Meganium"
+    },
+    {
+        "id": 155,
+        "germanName": "Feurigel",
+        "englishName": "Cyndaquil"
+    },
+    {
+        "id": 156,
+        "germanName": "Igelavar",
+        "englishName": "Quilava"
+    },
+    {
+        "id": 157,
+        "germanName": "Tornupto",
+        "englishName": "Typhlosion"
+    },
+    {
+        "id": 158,
+        "germanName": "Karnimani",
+        "englishName": "Totodile"
+    },
+    {
+        "id": 159,
+        "germanName": "Tyracroc",
+        "englishName": "Croconaw"
+    },
+    {
+        "id": 160,
+        "germanName": "Impergator",
+        "englishName": "Feraligatr"
+    },
+    {
+        "id": 161,
+        "germanName": "Wiesor",
+        "englishName": "Sentret"
+    },
+    {
+        "id": 162,
+        "germanName": "Wiesenior",
+        "englishName": "Furret"
+    },
+    {
+        "id": 163,
+        "germanName": "Hoothoot",
+        "englishName": "Hoothoot"
+    },
+    {
+        "id": 164,
+        "germanName": "Noctuh",
+        "englishName": "Noctowl"
+    },
+    {
+        "id": 165,
+        "germanName": "Ledyba",
+        "englishName": "Ledyba"
+    },
+    {
+        "id": 166,
+        "germanName": "Ledian",
+        "englishName": "Ledian"
+    },
+    {
+        "id": 167,
+        "germanName": "Webarak",
+        "englishName": "Spinarak"
+    },
+    {
+        "id": 168,
+        "germanName": "Ariados",
+        "englishName": "Ariados"
+    },
+    {
+        "id": 169,
+        "germanName": "Iksbat",
+        "englishName": "Crobat"
+    },
+    {
+        "id": 170,
+        "germanName": "Lampi",
+        "englishName": "Chinchou"
+    },
+    {
+        "id": 171,
+        "germanName": "Lanturn",
+        "englishName": "Lanturn"
+    },
+    {
+        "id": 172,
+        "germanName": "Pichu",
+        "englishName": "Pichu"
+    },
+    {
+        "id": 173,
+        "germanName": "Pii",
+        "englishName": "Cleffa"
+    },
+    {
+        "id": 174,
+        "germanName": "Fluffeluff",
+        "englishName": "Igglybuff"
+    },
+    {
+        "id": 175,
+        "germanName": "Togepi",
+        "englishName": "Togepi"
+    },
+    {
+        "id": 176,
+        "germanName": "Togetic",
+        "englishName": "Togetic"
+    },
+    {
+        "id": 177,
+        "germanName": "Natu",
+        "englishName": "Natu"
+    },
+    {
+        "id": 178,
+        "germanName": "Xatu",
+        "englishName": "Xatu"
+    },
+    {
+        "id": 179,
+        "germanName": "Voltilamm",
+        "englishName": "Mareep"
+    },
+    {
+        "id": 180,
+        "germanName": "Waaty",
+        "englishName": "Flaaffy"
+    },
+    {
+        "id": 181,
+        "germanName": "Ampharos",
+        "englishName": "Ampharos"
+    },
+    {
+        "id": 182,
+        "germanName": "Blubella",
+        "englishName": "Bellossom"
+    },
+    {
+        "id": 183,
+        "germanName": "Marill",
+        "englishName": "Marill"
+    },
+    {
+        "id": 184,
+        "germanName": "Azumarill",
+        "englishName": "Azumarill"
+    },
+    {
+        "id": 185,
+        "germanName": "Mogelbaum",
+        "englishName": "Sudowoodo"
+    },
+    {
+        "id": 186,
+        "germanName": "Quaxo",
+        "englishName": "Politoed"
+    },
+    {
+        "id": 187,
+        "germanName": "Hoppspross",
+        "englishName": "Hoppip"
+    },
+    {
+        "id": 188,
+        "germanName": "Hubelupf",
+        "englishName": "Skiploom"
+    },
+    {
+        "id": 189,
+        "germanName": "Papungha",
+        "englishName": "Jumpluff"
+    },
+    {
+        "id": 190,
+        "germanName": "Griffel",
+        "englishName": "Aipom"
+    },
+    {
+        "id": 191,
+        "germanName": "Sonnkern",
+        "englishName": "Sunkern"
+    },
+    {
+        "id": 192,
+        "germanName": "Sonnflora",
+        "englishName": "Sunflora"
+    },
+    {
+        "id": 193,
+        "germanName": "Yanma",
+        "englishName": "Yanma"
+    },
+    {
+        "id": 194,
+        "germanName": "Felino",
+        "englishName": "Wooper"
+    },
+    {
+        "id": 195,
+        "germanName": "Morlord",
+        "englishName": "Quagsire"
+    },
+    {
+        "id": 196,
+        "germanName": "Psiana",
+        "englishName": "Espeon"
+    },
+    {
+        "id": 197,
+        "germanName": "Nachtara",
+        "englishName": "Umbreon"
+    },
+    {
+        "id": 198,
+        "germanName": "Kramurx",
+        "englishName": "Murkrow"
+    },
+    {
+        "id": 199,
+        "germanName": "Laschoking",
+        "englishName": "Slowking"
+    },
+    {
+        "id": 200,
+        "germanName": "Traunfugil",
+        "englishName": "Misdreavus"
+    },
+    {
+        "id": 201,
+        "germanName": "Icognito",
+        "englishName": "Unown"
+    },
+    {
+        "id": 202,
+        "germanName": "Woingenau",
+        "englishName": "Wobbuffet"
+    },
+    {
+        "id": 203,
+        "germanName": "Girafarig",
+        "englishName": "Girafarig"
+    },
+    {
+        "id": 204,
+        "germanName": "Tannza",
+        "englishName": "Pineco"
+    },
+    {
+        "id": 205,
+        "germanName": "Forstellka",
+        "englishName": "Forretress"
+    },
+    {
+        "id": 206,
+        "germanName": "Dummisel",
+        "englishName": "Dunsparce"
+    },
+    {
+        "id": 207,
+        "germanName": "Skorgla",
+        "englishName": "Gligar"
+    },
+    {
+        "id": 208,
+        "germanName": "Stahlos",
+        "englishName": "Steelix"
+    },
+    {
+        "id": 209,
+        "germanName": "Snubbull",
+        "englishName": "Snubbull"
+    },
+    {
+        "id": 210,
+        "germanName": "Granbull",
+        "englishName": "Granbull"
+    },
+    {
+        "id": 211,
+        "germanName": "Baldorfish",
+        "englishName": "Qwilfish"
+    },
+    {
+        "id": 212,
+        "germanName": "Scherox",
+        "englishName": "Scizor"
+    },
+    {
+        "id": 213,
+        "germanName": "Pottrott",
+        "englishName": "Shuckle"
+    },
+    {
+        "id": 214,
+        "germanName": "Skaraborn",
+        "englishName": "Heracross"
+    },
+    {
+        "id": 215,
+        "germanName": "Sniebel",
+        "englishName": "Sneasel"
+    },
+    {
+        "id": 216,
+        "germanName": "Teddiursa",
+        "englishName": "Teddiursa"
+    },
+    {
+        "id": 217,
+        "germanName": "Ursaring",
+        "englishName": "Ursaring"
+    },
+    {
+        "id": 218,
+        "germanName": "Schneckmag",
+        "englishName": "Slugma"
+    },
+    {
+        "id": 219,
+        "germanName": "Magcargo",
+        "englishName": "Magcargo"
+    },
+    {
+        "id": 220,
+        "germanName": "Quiekel",
+        "englishName": "Swinub"
+    },
+    {
+        "id": 221,
+        "germanName": "Keifel",
+        "englishName": "Piloswine"
+    },
+    {
+        "id": 222,
+        "germanName": "Corasonn",
+        "englishName": "Corsola"
+    },
+    {
+        "id": 223,
+        "germanName": "Remoraid",
+        "englishName": "Remoraid"
+    },
+    {
+        "id": 224,
+        "germanName": "Octillery",
+        "englishName": "Octillery"
+    },
+    {
+        "id": 225,
+        "germanName": "Botogel",
+        "englishName": "Delibird"
+    },
+    {
+        "id": 226,
+        "germanName": "Mantax",
+        "englishName": "Mantine"
+    },
+    {
+        "id": 227,
+        "germanName": "Panzaeron",
+        "englishName": "Skarmory"
+    },
+    {
+        "id": 228,
+        "germanName": "Hunduster",
+        "englishName": "Houndour"
+    },
+    {
+        "id": 229,
+        "germanName": "Hundemon",
+        "englishName": "Houndoom"
+    },
+    {
+        "id": 230,
+        "germanName": "Seedraking",
+        "englishName": "Kingdra"
+    },
+    {
+        "id": 231,
+        "germanName": "Phanpy",
+        "englishName": "Phanpy"
+    },
+    {
+        "id": 232,
+        "germanName": "Donphan",
+        "englishName": "Donphan"
+    },
+    {
+        "id": 233,
+        "germanName": "Porygon2",
+        "englishName": "Porygon2"
+    },
+    {
+        "id": 234,
+        "germanName": "Damhirplex",
+        "englishName": "Stantler"
+    },
+    {
+        "id": 235,
+        "germanName": "Farbeagle",
+        "englishName": "Smeargle"
+    },
+    {
+        "id": 236,
+        "germanName": "Rabauz",
+        "englishName": "Tyrogue"
+    },
+    {
+        "id": 237,
+        "germanName": "Kapoera",
+        "englishName": "Hitmontop"
+    },
+    {
+        "id": 238,
+        "germanName": "Kussilla",
+        "englishName": "Smoochum"
+    },
+    {
+        "id": 239,
+        "germanName": "Elekid",
+        "englishName": "Elekid"
+    },
+    {
+        "id": 240,
+        "germanName": "Magby",
+        "englishName": "Magby"
+    },
+    {
+        "id": 241,
+        "germanName": "Miltank",
+        "englishName": "Miltank"
+    },
+    {
+        "id": 242,
+        "germanName": "Heiteira",
+        "englishName": "Blissey"
+    },
+    {
+        "id": 243,
+        "germanName": "Raikou",
+        "englishName": "Raikou"
+    },
+    {
+        "id": 244,
+        "germanName": "Entei",
+        "englishName": "Entei"
+    },
+    {
+        "id": 245,
+        "germanName": "Suicune",
+        "englishName": "Suicune"
+    },
+    {
+        "id": 246,
+        "germanName": "Larvitar",
+        "englishName": "Larvitar"
+    },
+    {
+        "id": 247,
+        "germanName": "Pupitar",
+        "englishName": "Pupitar"
+    },
+    {
+        "id": 248,
+        "germanName": "Despotar",
+        "englishName": "Tyranitar"
+    },
+    {
+        "id": 249,
+        "germanName": "Lugia",
+        "englishName": "Lugia"
+    },
+    {
+        "id": 250,
+        "germanName": "Ho-Oh",
+        "englishName": "Ho-Oh"
+    },
+    {
+        "id": 251,
+        "germanName": "Celebi",
+        "englishName": "Celebi"
+    },
+    {
+        "id": 252,
+        "germanName": "Geckarbor",
+        "englishName": "Treecko"
+    },
+    {
+        "id": 253,
+        "germanName": "Reptain",
+        "englishName": "Grovyle"
+    },
+    {
+        "id": 254,
+        "germanName": "Gewaldro",
+        "englishName": "Sceptile"
+    },
+    {
+        "id": 255,
+        "germanName": "Flemmli",
+        "englishName": "Torchic"
+    },
+    {
+        "id": 256,
+        "germanName": "Jungglut",
+        "englishName": "Combusken"
+    },
+    {
+        "id": 257,
+        "germanName": "Lohgock",
+        "englishName": "Blaziken"
+    },
+    {
+        "id": 258,
+        "germanName": "Hydropi",
+        "englishName": "Mudkip"
+    },
+    {
+        "id": 259,
+        "germanName": "Moorabbel",
+        "englishName": "Marshtomp"
+    },
+    {
+        "id": 260,
+        "germanName": "Sumpex",
+        "englishName": "Swampert"
+    },
+    {
+        "id": 261,
+        "germanName": "Fiffyen",
+        "englishName": "Poochyena"
+    },
+    {
+        "id": 262,
+        "germanName": "Magnayen",
+        "englishName": "Mightyena"
+    },
+    {
+        "id": 263,
+        "germanName": "Zigzachs",
+        "englishName": "Zigzagoon"
+    },
+    {
+        "id": 264,
+        "germanName": "Geradaks",
+        "englishName": "Linoone"
+    },
+    {
+        "id": 265,
+        "germanName": "Waumpel",
+        "englishName": "Wurmple"
+    },
+    {
+        "id": 266,
+        "germanName": "Schaloko",
+        "englishName": "Silcoon"
+    },
+    {
+        "id": 267,
+        "germanName": "Papinella",
+        "englishName": "Beautifly"
+    },
+    {
+        "id": 268,
+        "germanName": "Panekon",
+        "englishName": "Cascoon"
+    },
+    {
+        "id": 269,
+        "germanName": "Pudox",
+        "englishName": "Dustox"
+    },
+    {
+        "id": 270,
+        "germanName": "Loturzel",
+        "englishName": "Lotad"
+    },
+    {
+        "id": 271,
+        "germanName": "Lombrero",
+        "englishName": "Lombre"
+    },
+    {
+        "id": 272,
+        "germanName": "Kappalores",
+        "englishName": "Ludicolo"
+    },
+    {
+        "id": 273,
+        "germanName": "Samurzel",
+        "englishName": "Seedot"
+    },
+    {
+        "id": 274,
+        "germanName": "Blanas",
+        "englishName": "Nuzleaf"
+    },
+    {
+        "id": 275,
+        "germanName": "Tengulist",
+        "englishName": "Shiftry"
+    },
+    {
+        "id": 276,
+        "germanName": "Schwalbini",
+        "englishName": "Taillow"
+    },
+    {
+        "id": 277,
+        "germanName": "Schwalboss",
+        "englishName": "Swellow"
+    },
+    {
+        "id": 278,
+        "germanName": "Wingull",
+        "englishName": "Wingull"
+    },
+    {
+        "id": 279,
+        "germanName": "Pelipper",
+        "englishName": "Pelipper"
+    },
+    {
+        "id": 280,
+        "germanName": "Trasla",
+        "englishName": "Ralts"
+    },
+    {
+        "id": 281,
+        "germanName": "Kirlia",
+        "englishName": "Kirlia"
+    },
+    {
+        "id": 282,
+        "germanName": "Guardevoir",
+        "englishName": "Gardevoir"
+    },
+    {
+        "id": 283,
+        "germanName": "Gehweiher",
+        "englishName": "Surskit"
+    },
+    {
+        "id": 284,
+        "germanName": "Maskeregen",
+        "englishName": "Masquerain"
+    },
+    {
+        "id": 285,
+        "germanName": "Knilz",
+        "englishName": "Shroomish"
+    },
+    {
+        "id": 286,
+        "germanName": "Kapilz",
+        "englishName": "Breloom"
+    },
+    {
+        "id": 287,
+        "germanName": "Bummelz",
+        "englishName": "Slakoth"
+    },
+    {
+        "id": 288,
+        "germanName": "Muntier",
+        "englishName": "Vigoroth"
+    },
+    {
+        "id": 289,
+        "germanName": "Letarking",
+        "englishName": "Slaking"
+    },
+    {
+        "id": 290,
+        "germanName": "Nincada",
+        "englishName": "Nincada"
+    },
+    {
+        "id": 291,
+        "germanName": "Ninjask",
+        "englishName": "Ninjask"
+    },
+    {
+        "id": 292,
+        "germanName": "Ninjatom",
+        "englishName": "Shedinja"
+    },
+    {
+        "id": 293,
+        "germanName": "Flurmel",
+        "englishName": "Whismur"
+    },
+    {
+        "id": 294,
+        "germanName": "Krakeelo",
+        "englishName": "Loudred"
+    },
+    {
+        "id": 295,
+        "germanName": "Krawumms",
+        "englishName": "Exploud"
+    },
+    {
+        "id": 296,
+        "germanName": "Makuhita",
+        "englishName": "Makuhita"
+    },
+    {
+        "id": 297,
+        "germanName": "Hariyama",
+        "englishName": "Hariyama"
+    },
+    {
+        "id": 298,
+        "germanName": "Azurill",
+        "englishName": "Azurill"
+    },
+    {
+        "id": 299,
+        "germanName": "Nasgnet",
+        "englishName": "Nosepass"
+    },
+    {
+        "id": 300,
+        "germanName": "Eneco",
+        "englishName": "Skitty"
+    },
+    {
+        "id": 301,
+        "germanName": "Enekoro",
+        "englishName": "Delcatty"
+    },
+    {
+        "id": 302,
+        "germanName": "Zobiris",
+        "englishName": "Sableye"
+    },
+    {
+        "id": 303,
+        "germanName": "Flunkifer",
+        "englishName": "Mawile"
+    },
+    {
+        "id": 304,
+        "germanName": "Stollunior",
+        "englishName": "Aron"
+    },
+    {
+        "id": 305,
+        "germanName": "Stollrak",
+        "englishName": "Lairon"
+    },
+    {
+        "id": 306,
+        "germanName": "Stolloss",
+        "englishName": "Aggron"
+    },
+    {
+        "id": 307,
+        "germanName": "Meditie",
+        "englishName": "Meditite"
+    },
+    {
+        "id": 308,
+        "germanName": "Meditalis",
+        "englishName": "Medicham"
+    },
+    {
+        "id": 309,
+        "germanName": "Frizelbliz",
+        "englishName": "Electrike"
+    },
+    {
+        "id": 310,
+        "germanName": "Voltenso",
+        "englishName": "Manectric"
+    },
+    {
+        "id": 311,
+        "germanName": "Plusle",
+        "englishName": "Plusle"
+    },
+    {
+        "id": 312,
+        "germanName": "Minun",
+        "englishName": "Minun"
+    },
+    {
+        "id": 313,
+        "germanName": "Volbeat",
+        "englishName": "Volbeat"
+    },
+    {
+        "id": 314,
+        "germanName": "Illumise",
+        "englishName": "Illumise"
+    },
+    {
+        "id": 315,
+        "germanName": "Roselia",
+        "englishName": "Roselia"
+    },
+    {
+        "id": 316,
+        "germanName": "Schluppuck",
+        "englishName": "Gulpin"
+    },
+    {
+        "id": 317,
+        "germanName": "Schlukwech",
+        "englishName": "Swalot"
+    },
+    {
+        "id": 318,
+        "germanName": "Kanivanha",
+        "englishName": "Carvanha"
+    },
+    {
+        "id": 319,
+        "germanName": "Tohaido",
+        "englishName": "Sharpedo"
+    },
+    {
+        "id": 320,
+        "germanName": "Wailmer",
+        "englishName": "Wailmer"
+    },
+    {
+        "id": 321,
+        "germanName": "Wailord",
+        "englishName": "Wailord"
+    },
+    {
+        "id": 322,
+        "germanName": "Camaub",
+        "englishName": "Numel"
+    },
+    {
+        "id": 323,
+        "germanName": "Camerupt",
+        "englishName": "Camerupt"
+    },
+    {
+        "id": 324,
+        "germanName": "Qurtel",
+        "englishName": "Torkoal"
+    },
+    {
+        "id": 325,
+        "germanName": "Spoink",
+        "englishName": "Spoink"
+    },
+    {
+        "id": 326,
+        "germanName": "Groink",
+        "englishName": "Grumpig"
+    },
+    {
+        "id": 327,
+        "germanName": "Pandir",
+        "englishName": "Spinda"
+    },
+    {
+        "id": 328,
+        "germanName": "Knacklion",
+        "englishName": "Trapinch"
+    },
+    {
+        "id": 329,
+        "germanName": "Vibrava",
+        "englishName": "Vibrava"
+    },
+    {
+        "id": 330,
+        "germanName": "Libelldra",
+        "englishName": "Flygon"
+    },
+    {
+        "id": 331,
+        "germanName": "Tuska",
+        "englishName": "Cacnea"
+    },
+    {
+        "id": 332,
+        "germanName": "Noktuska",
+        "englishName": "Cacturne"
+    },
+    {
+        "id": 333,
+        "germanName": "Wablu",
+        "englishName": "Swablu"
+    },
+    {
+        "id": 334,
+        "germanName": "Altaria",
+        "englishName": "Altaria"
+    },
+    {
+        "id": 335,
+        "germanName": "Sengo",
+        "englishName": "Zangoose"
+    },
+    {
+        "id": 336,
+        "germanName": "Vipitis",
+        "englishName": "Seviper"
+    },
+    {
+        "id": 337,
+        "germanName": "Lunastein",
+        "englishName": "Lunatone"
+    },
+    {
+        "id": 338,
+        "germanName": "Sonnfel",
+        "englishName": "Solrock"
+    },
+    {
+        "id": 339,
+        "germanName": "Schmerbe",
+        "englishName": "Barboach"
+    },
+    {
+        "id": 340,
+        "germanName": "Welsar",
+        "englishName": "Whiscash"
+    },
+    {
+        "id": 341,
+        "germanName": "Krebscorps",
+        "englishName": "Corphish"
+    },
+    {
+        "id": 342,
+        "germanName": "Krebutack",
+        "englishName": "Crawdaunt"
+    },
+    {
+        "id": 343,
+        "germanName": "Puppance",
+        "englishName": "Baltoy"
+    },
+    {
+        "id": 344,
+        "germanName": "Lepumentas",
+        "englishName": "Claydol"
+    },
+    {
+        "id": 345,
+        "germanName": "Liliep",
+        "englishName": "Lileep"
+    },
+    {
+        "id": 346,
+        "germanName": "Wielie",
+        "englishName": "Cradily"
+    },
+    {
+        "id": 347,
+        "germanName": "Anorith",
+        "englishName": "Anorith"
+    },
+    {
+        "id": 348,
+        "germanName": "Armaldo",
+        "englishName": "Armaldo"
+    },
+    {
+        "id": 349,
+        "germanName": "Barschwa",
+        "englishName": "Feebas"
+    },
+    {
+        "id": 350,
+        "germanName": "Milotic",
+        "englishName": "Milotic"
+    },
+    {
+        "id": 351,
+        "germanName": "Formeo",
+        "englishName": "Castform"
+    },
+    {
+        "id": 352,
+        "germanName": "Kecleon",
+        "englishName": "Kecleon"
+    },
+    {
+        "id": 353,
+        "germanName": "Shuppet",
+        "englishName": "Shuppet"
+    },
+    {
+        "id": 354,
+        "germanName": "Banette",
+        "englishName": "Banette"
+    },
+    {
+        "id": 355,
+        "germanName": "Zwirrlicht",
+        "englishName": "Duskull"
+    },
+    {
+        "id": 356,
+        "germanName": "Zwirrklop",
+        "englishName": "Dusclops"
+    },
+    {
+        "id": 357,
+        "germanName": "Tropius",
+        "englishName": "Tropius"
+    },
+    {
+        "id": 358,
+        "germanName": "Palimpalim",
+        "englishName": "Chimecho"
+    },
+    {
+        "id": 359,
+        "germanName": "Absol",
+        "englishName": "Absol"
+    },
+    {
+        "id": 360,
+        "germanName": "Isso",
+        "englishName": "Wynaut"
+    },
+    {
+        "id": 361,
+        "germanName": "Schneppke",
+        "englishName": "Snorunt"
+    },
+    {
+        "id": 362,
+        "germanName": "Firnontor",
+        "englishName": "Glalie"
+    },
+    {
+        "id": 363,
+        "germanName": "Seemops",
+        "englishName": "Spheal"
+    },
+    {
+        "id": 364,
+        "germanName": "Seejong",
+        "englishName": "Sealeo"
+    },
+    {
+        "id": 365,
+        "germanName": "Walraisa",
+        "englishName": "Walrein"
+    },
+    {
+        "id": 366,
+        "germanName": "Perlu",
+        "englishName": "Clamperl"
+    },
+    {
+        "id": 367,
+        "germanName": "Aalabyss",
+        "englishName": "Huntail"
+    },
+    {
+        "id": 368,
+        "germanName": "Saganabyss",
+        "englishName": "Gorebyss"
+    },
+    {
+        "id": 369,
+        "germanName": "Relicanth",
+        "englishName": "Relicanth"
+    },
+    {
+        "id": 370,
+        "germanName": "Liebiskus",
+        "englishName": "Luvdisc"
+    },
+    {
+        "id": 371,
+        "germanName": "Kindwurm",
+        "englishName": "Bagon"
+    },
+    {
+        "id": 372,
+        "germanName": "Draschel",
+        "englishName": "Shelgon"
+    },
+    {
+        "id": 373,
+        "germanName": "Brutalanda",
+        "englishName": "Salamence"
+    },
+    {
+        "id": 374,
+        "germanName": "Tanhel",
+        "englishName": "Beldum"
+    },
+    {
+        "id": 375,
+        "germanName": "Metang",
+        "englishName": "Metang"
+    },
+    {
+        "id": 376,
+        "germanName": "Metagross",
+        "englishName": "Metagross"
+    },
+    {
+        "id": 377,
+        "germanName": "Regirock",
+        "englishName": "Regirock"
+    },
+    {
+        "id": 378,
+        "germanName": "Regice",
+        "englishName": "Regice"
+    },
+    {
+        "id": 379,
+        "germanName": "Registeel",
+        "englishName": "Registeel"
+    },
+    {
+        "id": 380,
+        "germanName": "Latias",
+        "englishName": "Latias"
+    },
+    {
+        "id": 381,
+        "germanName": "Latios",
+        "englishName": "Latios"
+    },
+    {
+        "id": 382,
+        "germanName": "Kyogre",
+        "englishName": "Kyogre"
+    },
+    {
+        "id": 383,
+        "germanName": "Groudon",
+        "englishName": "Groudon"
+    },
+    {
+        "id": 384,
+        "germanName": "Rayquaza",
+        "englishName": "Rayquaza"
+    },
+    {
+        "id": 385,
+        "germanName": "Jirachi",
+        "englishName": "Jirachi"
+    },
+    {
+        "id": 386,
+        "germanName": "Deoxys",
+        "englishName": "Deoxys"
+    },
+    {
+        "id": 387,
+        "germanName": "Chelast",
+        "englishName": "Turtwig"
+    },
+    {
+        "id": 388,
+        "germanName": "Chelcarain",
+        "englishName": "Grotle"
+    },
+    {
+        "id": 389,
+        "germanName": "Chelterrar",
+        "englishName": "Torterra"
+    },
+    {
+        "id": 390,
+        "germanName": "Panflam",
+        "englishName": "Chimchar"
+    },
+    {
+        "id": 391,
+        "germanName": "Panpyro",
+        "englishName": "Monferno"
+    },
+    {
+        "id": 392,
+        "germanName": "Panferno",
+        "englishName": "Infernape"
+    },
+    {
+        "id": 393,
+        "germanName": "Plinfa",
+        "englishName": "Piplup"
+    },
+    {
+        "id": 394,
+        "germanName": "Pliprin",
+        "englishName": "Prinplup"
+    },
+    {
+        "id": 395,
+        "germanName": "Impoleon",
+        "englishName": "Empoleon"
+    },
+    {
+        "id": 396,
+        "germanName": "Staralili",
+        "englishName": "Starly"
+    },
+    {
+        "id": 397,
+        "germanName": "Staravia",
+        "englishName": "Staravia"
+    },
+    {
+        "id": 398,
+        "germanName": "Staraptor",
+        "englishName": "Staraptor"
+    },
+    {
+        "id": 399,
+        "germanName": "Bidiza",
+        "englishName": "Bidoof"
+    },
+    {
+        "id": 400,
+        "germanName": "Bidifas",
+        "englishName": "Bibarel"
+    },
+    {
+        "id": 401,
+        "germanName": "Zirpurze",
+        "englishName": "Kricketot"
+    },
+    {
+        "id": 402,
+        "germanName": "Zirpeise",
+        "englishName": "Kricketune"
+    },
+    {
+        "id": 403,
+        "germanName": "Sheinux",
+        "englishName": "Shinx"
+    },
+    {
+        "id": 404,
+        "germanName": "Luxio",
+        "englishName": "Luxio"
+    },
+    {
+        "id": 405,
+        "germanName": "Luxtra",
+        "englishName": "Luxray"
+    },
+    {
+        "id": 406,
+        "germanName": "Knospi",
+        "englishName": "Budew"
+    },
+    {
+        "id": 407,
+        "germanName": "Roserade",
+        "englishName": "Roserade"
+    },
+    {
+        "id": 408,
+        "germanName": "Koknodon",
+        "englishName": "Cranidos"
+    },
+    {
+        "id": 409,
+        "germanName": "Rameidon",
+        "englishName": "Rampardos"
+    },
+    {
+        "id": 410,
+        "germanName": "Schilterus",
+        "englishName": "Shieldon"
+    },
+    {
+        "id": 411,
+        "germanName": "Bollterus",
+        "englishName": "Bastiodon"
+    },
+    {
+        "id": 412,
+        "germanName": "Burmy",
+        "englishName": "Burmy"
+    },
+    {
+        "id": 413,
+        "germanName": "Burmadame",
+        "englishName": "Wormadam"
+    },
+    {
+        "id": 414,
+        "germanName": "Moterpel",
+        "englishName": "Mothim"
+    },
+    {
+        "id": 415,
+        "germanName": "Wadribie",
+        "englishName": "Combee"
+    },
+    {
+        "id": 416,
+        "germanName": "Honweisel",
+        "englishName": "Vespiquen"
+    },
+    {
+        "id": 417,
+        "germanName": "Pachirisu",
+        "englishName": "Pachirisu"
+    },
+    {
+        "id": 418,
+        "germanName": "Bamelin",
+        "englishName": "Buizel"
+    },
+    {
+        "id": 419,
+        "germanName": "Bojelin",
+        "englishName": "Floatzel"
+    },
+    {
+        "id": 420,
+        "germanName": "Kikugi",
+        "englishName": "Cherubi"
+    },
+    {
+        "id": 421,
+        "germanName": "Kinoso",
+        "englishName": "Cherrim"
+    },
+    {
+        "id": 422,
+        "germanName": "Schalellos",
+        "englishName": "Shellos"
+    },
+    {
+        "id": 423,
+        "germanName": "Gastrodon",
+        "englishName": "Gastrodon"
+    },
+    {
+        "id": 424,
+        "germanName": "Ambidiffel",
+        "englishName": "Ambipom"
+    },
+    {
+        "id": 425,
+        "germanName": "Driftlon",
+        "englishName": "Drifloon"
+    },
+    {
+        "id": 426,
+        "germanName": "Drifzepeli",
+        "englishName": "Drifblim"
+    },
+    {
+        "id": 427,
+        "germanName": "Haspiror",
+        "englishName": "Buneary"
+    },
+    {
+        "id": 428,
+        "germanName": "Schlapor",
+        "englishName": "Lopunny"
+    },
+    {
+        "id": 429,
+        "germanName": "Traunmagil",
+        "englishName": "Mismagius"
+    },
+    {
+        "id": 430,
+        "germanName": "Kramshef",
+        "englishName": "Honchkrow"
+    },
+    {
+        "id": 431,
+        "germanName": "Charmian",
+        "englishName": "Glameow"
+    },
+    {
+        "id": 432,
+        "germanName": "Shnurgarst",
+        "englishName": "Purugly"
+    },
+    {
+        "id": 433,
+        "germanName": "Klingplim",
+        "englishName": "Chingling"
+    },
+    {
+        "id": 434,
+        "germanName": "Skunkapuh",
+        "englishName": "Stunky"
+    },
+    {
+        "id": 435,
+        "germanName": "Skuntank",
+        "englishName": "Skuntank"
+    },
+    {
+        "id": 436,
+        "germanName": "Bronzel",
+        "englishName": "Bronzor"
+    },
+    {
+        "id": 437,
+        "germanName": "Bronzong",
+        "englishName": "Bronzong"
+    },
+    {
+        "id": 438,
+        "germanName": "Mobai",
+        "englishName": "Bonsly"
+    },
+    {
+        "id": 439,
+        "germanName": "Pantimimi",
+        "englishName": "Mime Jr."
+    },
+    {
+        "id": 440,
+        "germanName": "Wonneira",
+        "englishName": "Happiny"
+    },
+    {
+        "id": 441,
+        "germanName": "Plaudagei",
+        "englishName": "Chatot"
+    },
+    {
+        "id": 442,
+        "germanName": "Kryppuk",
+        "englishName": "Spiritomb"
+    },
+    {
+        "id": 443,
+        "germanName": "Kaumalat",
+        "englishName": "Gible"
+    },
+    {
+        "id": 444,
+        "germanName": "Knarksel",
+        "englishName": "Gabite"
+    },
+    {
+        "id": 445,
+        "germanName": "Knakrack",
+        "englishName": "Garchomp"
+    },
+    {
+        "id": 446,
+        "germanName": "Mampfaxo",
+        "englishName": "Munchlax"
+    },
+    {
+        "id": 447,
+        "germanName": "Riolu",
+        "englishName": "Riolu"
+    },
+    {
+        "id": 448,
+        "germanName": "Lucario",
+        "englishName": "Lucario"
+    },
+    {
+        "id": 449,
+        "germanName": "Hippopotas",
+        "englishName": "Hippopotas"
+    },
+    {
+        "id": 450,
+        "germanName": "Hippoterus",
+        "englishName": "Hippowdon"
+    },
+    {
+        "id": 451,
+        "germanName": "Pionskora",
+        "englishName": "Skorupi"
+    },
+    {
+        "id": 452,
+        "germanName": "Piondragi",
+        "englishName": "Drapion"
+    },
+    {
+        "id": 453,
+        "germanName": "Glibunkel",
+        "englishName": "Croagunk"
+    },
+    {
+        "id": 454,
+        "germanName": "Toxiquak",
+        "englishName": "Toxicroak"
+    },
+    {
+        "id": 455,
+        "germanName": "Venuflibis",
+        "englishName": "Carnivine"
+    },
+    {
+        "id": 456,
+        "germanName": "Finneon",
+        "englishName": "Finneon"
+    },
+    {
+        "id": 457,
+        "germanName": "Lumineon",
+        "englishName": "Lumineon"
+    },
+    {
+        "id": 458,
+        "germanName": "Mantirps",
+        "englishName": "Mantyke"
+    },
+    {
+        "id": 459,
+        "germanName": "Shnebedeck",
+        "englishName": "Snover"
+    },
+    {
+        "id": 460,
+        "germanName": "Rexblisar",
+        "englishName": "Abomasnow"
+    },
+    {
+        "id": 461,
+        "germanName": "Snibunna",
+        "englishName": "Weavile"
+    },
+    {
+        "id": 462,
+        "germanName": "Magnezone",
+        "englishName": "Magnezone"
+    },
+    {
+        "id": 463,
+        "germanName": "Schlurplek",
+        "englishName": "Lickilicky"
+    },
+    {
+        "id": 464,
+        "germanName": "Rihornior",
+        "englishName": "Rhyperior"
+    },
+    {
+        "id": 465,
+        "germanName": "Tangoloss",
+        "englishName": "Tangrowth"
+    },
+    {
+        "id": 466,
+        "germanName": "Elevoltek",
+        "englishName": "Electivire"
+    },
+    {
+        "id": 467,
+        "germanName": "Magbrant",
+        "englishName": "Magmortar"
+    },
+    {
+        "id": 468,
+        "germanName": "Togekiss",
+        "englishName": "Togekiss"
+    },
+    {
+        "id": 469,
+        "germanName": "Yanmega",
+        "englishName": "Yanmega"
+    },
+    {
+        "id": 470,
+        "germanName": "Folipurba",
+        "englishName": "Leafeon"
+    },
+    {
+        "id": 471,
+        "germanName": "Glaziola",
+        "englishName": "Glaceon"
+    },
+    {
+        "id": 472,
+        "germanName": "Skorgro",
+        "englishName": "Gliscor"
+    },
+    {
+        "id": 473,
+        "germanName": "Mamutel",
+        "englishName": "Mamoswine"
+    },
+    {
+        "id": 474,
+        "germanName": "Porygon-Z",
+        "englishName": "Porygon-Z"
+    },
+    {
+        "id": 475,
+        "germanName": "Galagladi",
+        "englishName": "Gallade"
+    },
+    {
+        "id": 476,
+        "germanName": "Voluminas",
+        "englishName": "Probopass"
+    },
+    {
+        "id": 477,
+        "germanName": "Zwirrfinst",
+        "englishName": "Dusknoir"
+    },
+    {
+        "id": 478,
+        "germanName": "Frosdedje",
+        "englishName": "Froslass"
+    },
+    {
+        "id": 479,
+        "germanName": "Rotom",
+        "englishName": "Rotom"
+    },
+    {
+        "id": 480,
+        "germanName": "Selfe",
+        "englishName": "Uxie"
+    },
+    {
+        "id": 481,
+        "germanName": "Vesprit",
+        "englishName": "Mesprit"
+    },
+    {
+        "id": 482,
+        "germanName": "Tobutz",
+        "englishName": "Azelf"
+    },
+    {
+        "id": 483,
+        "germanName": "Dialga",
+        "englishName": "Dialga"
+    },
+    {
+        "id": 484,
+        "germanName": "Palkia",
+        "englishName": "Palkia"
+    },
+    {
+        "id": 485,
+        "germanName": "Heatran",
+        "englishName": "Heatran"
+    },
+    {
+        "id": 486,
+        "germanName": "Regigigas",
+        "englishName": "Regigigas"
+    },
+    {
+        "id": 487,
+        "germanName": "Giratina",
+        "englishName": "Giratina"
+    },
+    {
+        "id": 488,
+        "germanName": "Cresselia",
+        "englishName": "Cresselia"
+    },
+    {
+        "id": 489,
+        "germanName": "Phione",
+        "englishName": "Phione"
+    },
+    {
+        "id": 490,
+        "germanName": "Manaphy",
+        "englishName": "Manaphy"
+    },
+    {
+        "id": 491,
+        "germanName": "Darkrai",
+        "englishName": "Darkrai"
+    },
+    {
+        "id": 492,
+        "germanName": "Shaymin",
+        "englishName": "Shaymin"
+    },
+    {
+        "id": 493,
+        "germanName": "Arceus",
+        "englishName": "Arceus"
+    },
+    {
+        "id": 494,
+        "germanName": "Victini",
+        "englishName": "Victini"
+    },
+    {
+        "id": 495,
+        "germanName": "Serpifeu",
+        "englishName": "Snivy"
+    },
+    {
+        "id": 496,
+        "germanName": "Efoserp",
+        "englishName": "Servine"
+    },
+    {
+        "id": 497,
+        "germanName": "Serpiroyal",
+        "englishName": "Serperior"
+    },
+    {
+        "id": 498,
+        "germanName": "Floink",
+        "englishName": "Tepig"
+    },
+    {
+        "id": 499,
+        "germanName": "Ferkokel",
+        "englishName": "Pignite"
+    },
+    {
+        "id": 500,
+        "germanName": "Flambirex",
+        "englishName": "Emboar"
+    },
+    {
+        "id": 501,
+        "germanName": "Ottaro",
+        "englishName": "Oshawott"
+    },
+    {
+        "id": 502,
+        "germanName": "Zwottronin",
+        "englishName": "Dewott"
+    },
+    {
+        "id": 503,
+        "germanName": "Admurai",
+        "englishName": "Samurott"
+    },
+    {
+        "id": 504,
+        "germanName": "Nagelotz",
+        "englishName": "Patrat"
+    },
+    {
+        "id": 505,
+        "germanName": "Kukmarda",
+        "englishName": "Watchog"
+    },
+    {
+        "id": 506,
+        "germanName": "Yorkleff",
+        "englishName": "Lillipup"
+    },
+    {
+        "id": 507,
+        "germanName": "Terribark",
+        "englishName": "Herdier"
+    },
+    {
+        "id": 508,
+        "germanName": "Bissbark",
+        "englishName": "Stoutland"
+    },
+    {
+        "id": 509,
+        "germanName": "Felilou",
+        "englishName": "Purrloin"
+    },
+    {
+        "id": 510,
+        "germanName": "Kleoparda",
+        "englishName": "Liepard"
+    },
+    {
+        "id": 511,
+        "germanName": "Vegimak",
+        "englishName": "Pansage"
+    },
+    {
+        "id": 512,
+        "germanName": "Vegichita",
+        "englishName": "Simisage"
+    },
+    {
+        "id": 513,
+        "germanName": "Grillmak",
+        "englishName": "Pansear"
+    },
+    {
+        "id": 514,
+        "germanName": "Grillchita",
+        "englishName": "Simisear"
+    },
+    {
+        "id": 515,
+        "germanName": "Sodamak",
+        "englishName": "Panpour"
+    },
+    {
+        "id": 516,
+        "germanName": "Sodachita",
+        "englishName": "Simipour"
+    },
+    {
+        "id": 517,
+        "germanName": "Somniam",
+        "englishName": "Munna"
+    },
+    {
+        "id": 518,
+        "germanName": "Somnivora",
+        "englishName": "Musharna"
+    },
+    {
+        "id": 519,
+        "germanName": "Dusselgurr",
+        "englishName": "Pidove"
+    },
+    {
+        "id": 520,
+        "germanName": "Navitaub",
+        "englishName": "Tranquill"
+    },
+    {
+        "id": 521,
+        "germanName": "Fasasnob",
+        "englishName": "Unfezant"
+    },
+    {
+        "id": 522,
+        "germanName": "Elezeba",
+        "englishName": "Blitzle"
+    },
+    {
+        "id": 523,
+        "germanName": "Zebritz",
+        "englishName": "Zebstrika"
+    },
+    {
+        "id": 524,
+        "germanName": "Kiesling",
+        "englishName": "Roggenrola"
+    },
+    {
+        "id": 525,
+        "germanName": "Sedimantur",
+        "englishName": "Boldore"
+    },
+    {
+        "id": 526,
+        "germanName": "Brockoloss",
+        "englishName": "Gigalith"
+    },
+    {
+        "id": 527,
+        "germanName": "Fleknoil",
+        "englishName": "Woobat"
+    },
+    {
+        "id": 528,
+        "germanName": "Fletiamo",
+        "englishName": "Swoobat"
+    },
+    {
+        "id": 529,
+        "germanName": "Rotomurf",
+        "englishName": "Drilbur"
+    },
+    {
+        "id": 530,
+        "germanName": "Stalobor",
+        "englishName": "Excadrill"
+    },
+    {
+        "id": 531,
+        "germanName": "Ohrdoch",
+        "englishName": "Audino"
+    },
+    {
+        "id": 532,
+        "germanName": "Praktibalk",
+        "englishName": "Timburr"
+    },
+    {
+        "id": 533,
+        "germanName": "Strepoli",
+        "englishName": "Gurdurr"
+    },
+    {
+        "id": 534,
+        "germanName": "Meistagrif",
+        "englishName": "Conkeldurr"
+    },
+    {
+        "id": 535,
+        "germanName": "Schallquap",
+        "englishName": "Tympole"
+    },
+    {
+        "id": 536,
+        "germanName": "Mebrana",
+        "englishName": "Palpitoad"
+    },
+    {
+        "id": 537,
+        "germanName": "Branawarz",
+        "englishName": "Seismitoad"
+    },
+    {
+        "id": 538,
+        "germanName": "Jiutesto",
+        "englishName": "Throh"
+    },
+    {
+        "id": 539,
+        "germanName": "Karadonis",
+        "englishName": "Sawk"
+    },
+    {
+        "id": 540,
+        "germanName": "Strawickl",
+        "englishName": "Sewaddle"
+    },
+    {
+        "id": 541,
+        "germanName": "Folikon",
+        "englishName": "Swadloon"
+    },
+    {
+        "id": 542,
+        "germanName": "Matrifol",
+        "englishName": "Leavanny"
+    },
+    {
+        "id": 543,
+        "germanName": "Toxiped",
+        "englishName": "Venipede"
+    },
+    {
+        "id": 544,
+        "germanName": "Rollum",
+        "englishName": "Whirlipede"
+    },
+    {
+        "id": 545,
+        "germanName": "Cerapendra",
+        "englishName": "Scolipede"
+    },
+    {
+        "id": 546,
+        "germanName": "Waumboll",
+        "englishName": "Cottonee"
+    },
+    {
+        "id": 547,
+        "germanName": "Elfun",
+        "englishName": "Whimsicott"
+    },
+    {
+        "id": 548,
+        "germanName": "Lilminip",
+        "englishName": "Petilil"
+    },
+    {
+        "id": 549,
+        "germanName": "Dressella",
+        "englishName": "Lilligant"
+    },
+    {
+        "id": 550,
+        "germanName": "Barschuft",
+        "englishName": "Basculin"
+    },
+    {
+        "id": 551,
+        "germanName": "Ganovil",
+        "englishName": "Sandile"
+    },
+    {
+        "id": 552,
+        "germanName": "Rokkaiman",
+        "englishName": "Krokorok"
+    },
+    {
+        "id": 553,
+        "germanName": "Rabigator",
+        "englishName": "Krookodile"
+    },
+    {
+        "id": 554,
+        "germanName": "Flampion",
+        "englishName": "Darumaka"
+    },
+    {
+        "id": 555,
+        "germanName": "Flampivian",
+        "englishName": "Darmanitan"
+    },
+    {
+        "id": 556,
+        "germanName": "Maracamba",
+        "englishName": "Maractus"
+    },
+    {
+        "id": 557,
+        "germanName": "Lithomith",
+        "englishName": "Dwebble"
+    },
+    {
+        "id": 558,
+        "germanName": "Castellith",
+        "englishName": "Crustle"
+    },
+    {
+        "id": 559,
+        "germanName": "Zurrokex",
+        "englishName": "Scraggy"
+    },
+    {
+        "id": 560,
+        "germanName": "Irokex",
+        "englishName": "Scrafty"
+    },
+    {
+        "id": 561,
+        "germanName": "Symvolara",
+        "englishName": "Sigilyph"
+    },
+    {
+        "id": 562,
+        "germanName": "Makabaja",
+        "englishName": "Yamask"
+    },
+    {
+        "id": 563,
+        "germanName": "Echnatoll",
+        "englishName": "Cofagrigus"
+    },
+    {
+        "id": 564,
+        "germanName": "Galapaflos",
+        "englishName": "Tirtouga"
+    },
+    {
+        "id": 565,
+        "germanName": "Karippas",
+        "englishName": "Carracosta"
+    },
+    {
+        "id": 566,
+        "germanName": "Flapteryx",
+        "englishName": "Archen"
+    },
+    {
+        "id": 567,
+        "germanName": "Aeropteryx",
+        "englishName": "Archeops"
+    },
+    {
+        "id": 568,
+        "germanName": "Unratütox",
+        "englishName": "Trubbish"
+    },
+    {
+        "id": 569,
+        "germanName": "Deponitox",
+        "englishName": "Garbodor"
+    },
+    {
+        "id": 570,
+        "germanName": "Zorua",
+        "englishName": "Zorua"
+    },
+    {
+        "id": 571,
+        "germanName": "Zoroark",
+        "englishName": "Zoroark"
+    },
+    {
+        "id": 572,
+        "germanName": "Picochilla",
+        "englishName": "Minccino"
+    },
+    {
+        "id": 573,
+        "germanName": "Chillabell",
+        "englishName": "Cinccino"
+    },
+    {
+        "id": 574,
+        "germanName": "Mollimorba",
+        "englishName": "Gothita"
+    },
+    {
+        "id": 575,
+        "germanName": "Hypnomorba",
+        "englishName": "Gothorita"
+    },
+    {
+        "id": 576,
+        "germanName": "Morbitesse",
+        "englishName": "Gothitelle"
+    },
+    {
+        "id": 577,
+        "germanName": "Monozyto",
+        "englishName": "Solosis"
+    },
+    {
+        "id": 578,
+        "germanName": "Mitodos",
+        "englishName": "Duosion"
+    },
+    {
+        "id": 579,
+        "germanName": "Zytomega",
+        "englishName": "Reuniclus"
+    },
+    {
+        "id": 580,
+        "germanName": "Piccolente",
+        "englishName": "Ducklett"
+    },
+    {
+        "id": 581,
+        "germanName": "Swaroness",
+        "englishName": "Swanna"
+    },
+    {
+        "id": 582,
+        "germanName": "Gelatini",
+        "englishName": "Vanillite"
+    },
+    {
+        "id": 583,
+        "germanName": "Gelatroppo",
+        "englishName": "Vanillish"
+    },
+    {
+        "id": 584,
+        "germanName": "Gelatwino",
+        "englishName": "Vanilluxe"
+    },
+    {
+        "id": 585,
+        "germanName": "Sesokitz",
+        "englishName": "Deerling"
+    },
+    {
+        "id": 586,
+        "germanName": "Kronjuwild",
+        "englishName": "Sawsbuck"
+    },
+    {
+        "id": 587,
+        "germanName": "Emolga",
+        "englishName": "Emolga"
+    },
+    {
+        "id": 588,
+        "germanName": "Laukaps",
+        "englishName": "Karrablast"
+    },
+    {
+        "id": 589,
+        "germanName": "Cavalanzas",
+        "englishName": "Escavalier"
+    },
+    {
+        "id": 590,
+        "germanName": "Tarnpignon",
+        "englishName": "Foongus"
+    },
+    {
+        "id": 591,
+        "germanName": "Hutsassa",
+        "englishName": "Amoonguss"
+    },
+    {
+        "id": 592,
+        "germanName": "Quabbel",
+        "englishName": "Frillish"
+    },
+    {
+        "id": 593,
+        "germanName": "Apoquallyp",
+        "englishName": "Jellicent"
+    },
+    {
+        "id": 594,
+        "germanName": "Mamolida",
+        "englishName": "Alomomola"
+    },
+    {
+        "id": 595,
+        "germanName": "Wattzapf",
+        "englishName": "Joltik"
+    },
+    {
+        "id": 596,
+        "germanName": "Voltula",
+        "englishName": "Galvantula"
+    },
+    {
+        "id": 597,
+        "germanName": "Kastadur",
+        "englishName": "Ferroseed"
+    },
+    {
+        "id": 598,
+        "germanName": "Tentantel",
+        "englishName": "Ferrothorn"
+    },
+    {
+        "id": 599,
+        "germanName": "Klikk",
+        "englishName": "Klink"
+    },
+    {
+        "id": 600,
+        "germanName": "Kliklak",
+        "englishName": "Klang"
+    },
+    {
+        "id": 601,
+        "germanName": "Klikdiklak",
+        "englishName": "Klinklang"
+    },
+    {
+        "id": 602,
+        "germanName": "Zapplardin",
+        "englishName": "Tynamo"
+    },
+    {
+        "id": 603,
+        "germanName": "Zapplalek",
+        "englishName": "Eelektrik"
+    },
+    {
+        "id": 604,
+        "germanName": "Zapplarang",
+        "englishName": "Eelektross"
+    },
+    {
+        "id": 605,
+        "germanName": "Pygraulon",
+        "englishName": "Elgyem"
+    },
+    {
+        "id": 606,
+        "germanName": "Megalon",
+        "englishName": "Beheeyem"
+    },
+    {
+        "id": 607,
+        "germanName": "Lichtel",
+        "englishName": "Litwick"
+    },
+    {
+        "id": 608,
+        "germanName": "Laternecto",
+        "englishName": "Lampent"
+    },
+    {
+        "id": 609,
+        "germanName": "Skelabra",
+        "englishName": "Chandelure"
+    },
+    {
+        "id": 610,
+        "germanName": "Milza",
+        "englishName": "Axew"
+    },
+    {
+        "id": 611,
+        "germanName": "Sharfax",
+        "englishName": "Fraxure"
+    },
+    {
+        "id": 612,
+        "germanName": "Maxax",
+        "englishName": "Haxorus"
+    },
+    {
+        "id": 613,
+        "germanName": "Petznief",
+        "englishName": "Cubchoo"
+    },
+    {
+        "id": 614,
+        "germanName": "Siberio",
+        "englishName": "Beartic"
+    },
+    {
+        "id": 615,
+        "germanName": "Frigometri",
+        "englishName": "Cryogonal"
+    },
+    {
+        "id": 616,
+        "germanName": "Schnuthelm",
+        "englishName": "Shelmet"
+    },
+    {
+        "id": 617,
+        "germanName": "Hydragil",
+        "englishName": "Accelgor"
+    },
+    {
+        "id": 618,
+        "germanName": "Flunschlik",
+        "englishName": "Stunfisk"
+    },
+    {
+        "id": 619,
+        "germanName": "Lin-Fu",
+        "englishName": "Mienfoo"
+    },
+    {
+        "id": 620,
+        "germanName": "Wie-Shu",
+        "englishName": "Mienshao"
+    },
+    {
+        "id": 621,
+        "germanName": "Shardrago",
+        "englishName": "Druddigon"
+    },
+    {
+        "id": 622,
+        "germanName": "Golbit",
+        "englishName": "Golett"
+    },
+    {
+        "id": 623,
+        "germanName": "Golgantes",
+        "englishName": "Golurk"
+    },
+    {
+        "id": 624,
+        "germanName": "Gladiantri",
+        "englishName": "Pawniard"
+    },
+    {
+        "id": 625,
+        "germanName": "Caesurio",
+        "englishName": "Bisharp"
+    },
+    {
+        "id": 626,
+        "germanName": "Bisofank",
+        "englishName": "Bouffalant"
+    },
+    {
+        "id": 627,
+        "germanName": "Geronimatz",
+        "englishName": "Rufflet"
+    },
+    {
+        "id": 628,
+        "germanName": "Washakwil",
+        "englishName": "Braviary"
+    },
+    {
+        "id": 629,
+        "germanName": "Skallyk",
+        "englishName": "Vullaby"
+    },
+    {
+        "id": 630,
+        "germanName": "Grypheldis",
+        "englishName": "Mandibuzz"
+    },
+    {
+        "id": 631,
+        "germanName": "Furnifraß",
+        "englishName": "Heatmor"
+    },
+    {
+        "id": 632,
+        "germanName": "Fermicula",
+        "englishName": "Durant"
+    },
+    {
+        "id": 633,
+        "germanName": "Kapuno",
+        "englishName": "Deino"
+    },
+    {
+        "id": 634,
+        "germanName": "Duodino",
+        "englishName": "Zweilous"
+    },
+    {
+        "id": 635,
+        "germanName": "Trikephalo",
+        "englishName": "Hydreigon"
+    },
+    {
+        "id": 636,
+        "germanName": "Ignivor",
+        "englishName": "Larvesta"
+    },
+    {
+        "id": 637,
+        "germanName": "Ramoth",
+        "englishName": "Volcarona"
+    },
+    {
+        "id": 638,
+        "germanName": "Kobalium",
+        "englishName": "Cobalion"
+    },
+    {
+        "id": 639,
+        "germanName": "Terrakium",
+        "englishName": "Terrakion"
+    },
+    {
+        "id": 640,
+        "germanName": "Viridium",
+        "englishName": "Virizion"
+    },
+    {
+        "id": 641,
+        "germanName": "Boreos",
+        "englishName": "Tornadus"
+    },
+    {
+        "id": 642,
+        "germanName": "Voltolos",
+        "englishName": "Thundurus"
+    },
+    {
+        "id": 643,
+        "germanName": "Reshiram",
+        "englishName": "Reshiram"
+    },
+    {
+        "id": 644,
+        "germanName": "Zekrom",
+        "englishName": "Zekrom"
+    },
+    {
+        "id": 645,
+        "germanName": "Demeteros",
+        "englishName": "Landorus"
+    },
+    {
+        "id": 646,
+        "germanName": "Kyurem",
+        "englishName": "Kyurem"
+    },
+    {
+        "id": 647,
+        "germanName": "Keldeo",
+        "englishName": "Keldeo"
+    },
+    {
+        "id": 648,
+        "germanName": "Meloetta",
+        "englishName": "Meloetta"
+    },
+    {
+        "id": 649,
+        "germanName": "Genesect",
+        "englishName": "Genesect"
+    },
+    {
+        "id": 650,
+        "germanName": "Igamaro",
+        "englishName": "Chespin"
+    },
+    {
+        "id": 651,
+        "germanName": "Igastarnish",
+        "englishName": "Quilladin"
+    },
+    {
+        "id": 652,
+        "germanName": "Brigaron",
+        "englishName": "Chesnaught"
+    },
+    {
+        "id": 653,
+        "germanName": "Fynx",
+        "englishName": "Fennekin"
+    },
+    {
+        "id": 654,
+        "germanName": "Rutena",
+        "englishName": "Braixen"
+    },
+    {
+        "id": 655,
+        "germanName": "Fennexis",
+        "englishName": "Delphox"
+    },
+    {
+        "id": 656,
+        "germanName": "Froxy",
+        "englishName": "Froakie"
+    },
+    {
+        "id": 657,
+        "germanName": "Amphizel",
+        "englishName": "Frogadier"
+    },
+    {
+        "id": 658,
+        "germanName": "Quajutsu",
+        "englishName": "Greninja"
+    },
+    {
+        "id": 659,
+        "germanName": "Scoppel",
+        "englishName": "Bunnelby"
+    },
+    {
+        "id": 660,
+        "germanName": "Grebbit",
+        "englishName": "Diggersby"
+    },
+    {
+        "id": 661,
+        "germanName": "Dartiri",
+        "englishName": "Fletchling"
+    },
+    {
+        "id": 662,
+        "germanName": "Dartignis",
+        "englishName": "Fletchinder"
+    },
+    {
+        "id": 663,
+        "germanName": "Fiaro",
+        "englishName": "Talonflame"
+    },
+    {
+        "id": 664,
+        "germanName": "Purmel",
+        "englishName": "Scatterbug"
+    },
+    {
+        "id": 665,
+        "germanName": "Puponcho",
+        "englishName": "Spewpa"
+    },
+    {
+        "id": 666,
+        "germanName": "Vivillon",
+        "englishName": "Vivillon"
+    },
+    {
+        "id": 667,
+        "germanName": "Leufeo",
+        "englishName": "Litleo"
+    },
+    {
+        "id": 668,
+        "germanName": "Pyroleo",
+        "englishName": "Pyroar"
+    },
+    {
+        "id": 669,
+        "germanName": "Flabébé",
+        "englishName": "Flabébé"
+    },
+    {
+        "id": 670,
+        "germanName": "Floette",
+        "englishName": "Floette"
+    },
+    {
+        "id": 671,
+        "germanName": "Florges",
+        "englishName": "Florges"
+    },
+    {
+        "id": 672,
+        "germanName": "Mähikel",
+        "englishName": "Skiddo"
+    },
+    {
+        "id": 673,
+        "germanName": "Chevrumm",
+        "englishName": "Gogoat"
+    },
+    {
+        "id": 674,
+        "germanName": "Pam-Pam",
+        "englishName": "Pancham"
+    },
+    {
+        "id": 675,
+        "germanName": "Pandagro",
+        "englishName": "Pangoro"
+    },
+    {
+        "id": 676,
+        "germanName": "Coiffwaff",
+        "englishName": "Furfrou"
+    },
+    {
+        "id": 677,
+        "germanName": "Psiau",
+        "englishName": "Espurr"
+    },
+    {
+        "id": 678,
+        "germanName": "Psiaugon",
+        "englishName": "Meowstic"
+    },
+    {
+        "id": 679,
+        "germanName": "Gramokles",
+        "englishName": "Honedge"
+    },
+    {
+        "id": 680,
+        "germanName": "Duokles",
+        "englishName": "Doublade"
+    },
+    {
+        "id": 681,
+        "germanName": "Durengard",
+        "englishName": "Aegislash"
+    },
+    {
+        "id": 682,
+        "germanName": "Parfi",
+        "englishName": "Spritzee"
+    },
+    {
+        "id": 683,
+        "germanName": "Parfinesse",
+        "englishName": "Aromatisse"
+    },
+    {
+        "id": 684,
+        "germanName": "Flauschling",
+        "englishName": "Swirlix"
+    },
+    {
+        "id": 685,
+        "germanName": "Sabbaione",
+        "englishName": "Slurpuff"
+    },
+    {
+        "id": 686,
+        "germanName": "Iscalar",
+        "englishName": "Inkay"
+    },
+    {
+        "id": 687,
+        "germanName": "Calamanero",
+        "englishName": "Malamar"
+    },
+    {
+        "id": 688,
+        "germanName": "Bithora",
+        "englishName": "Binacle"
+    },
+    {
+        "id": 689,
+        "germanName": "Thanathora",
+        "englishName": "Barbaracle"
+    },
+    {
+        "id": 690,
+        "germanName": "Algitt",
+        "englishName": "Skrelp"
+    },
+    {
+        "id": 691,
+        "germanName": "Tandrak",
+        "englishName": "Dragalge"
+    },
+    {
+        "id": 692,
+        "germanName": "Scampisto",
+        "englishName": "Clauncher"
+    },
+    {
+        "id": 693,
+        "germanName": "Wummer",
+        "englishName": "Clawitzer"
+    },
+    {
+        "id": 694,
+        "germanName": "Eguana",
+        "englishName": "Helioptile"
+    },
+    {
+        "id": 695,
+        "germanName": "Elezard",
+        "englishName": "Heliolisk"
+    },
+    {
+        "id": 696,
+        "germanName": "Balgoras",
+        "englishName": "Tyrunt"
+    },
+    {
+        "id": 697,
+        "germanName": "Monargoras",
+        "englishName": "Tyrantrum"
+    },
+    {
+        "id": 698,
+        "germanName": "Amarino",
+        "englishName": "Amaura"
+    },
+    {
+        "id": 699,
+        "germanName": "Amagarga",
+        "englishName": "Aurorus"
+    },
+    {
+        "id": 700,
+        "germanName": "Feelinara",
+        "englishName": "Sylveon"
+    },
+    {
+        "id": 701,
+        "germanName": "Resladero",
+        "englishName": "Hawlucha"
+    },
+    {
+        "id": 702,
+        "germanName": "Dedenne",
+        "englishName": "Dedenne"
+    },
+    {
+        "id": 703,
+        "germanName": "Rocara",
+        "englishName": "Carbink"
+    },
+    {
+        "id": 704,
+        "germanName": "Viscora",
+        "englishName": "Goomy"
+    },
+    {
+        "id": 705,
+        "germanName": "Viscargot",
+        "englishName": "Sliggoo"
+    },
+    {
+        "id": 706,
+        "germanName": "Viscogon",
+        "englishName": "Goodra"
+    },
+    {
+        "id": 707,
+        "germanName": "Clavion",
+        "englishName": "Klefki"
+    },
+    {
+        "id": 708,
+        "germanName": "Paragoni",
+        "englishName": "Phantump"
+    },
+    {
+        "id": 709,
+        "germanName": "Trombork",
+        "englishName": "Trevenant"
+    },
+    {
+        "id": 710,
+        "germanName": "Irrbis",
+        "englishName": "Pumpkaboo"
+    },
+    {
+        "id": 711,
+        "germanName": "Pumpdjinn",
+        "englishName": "Gourgeist"
+    },
+    {
+        "id": 712,
+        "germanName": "Arktip",
+        "englishName": "Bergmite"
+    },
+    {
+        "id": 713,
+        "germanName": "Arktilas",
+        "englishName": "Avalugg"
+    },
+    {
+        "id": 714,
+        "germanName": "eF-eM",
+        "englishName": "Noibat"
+    },
+    {
+        "id": 715,
+        "germanName": "UHaFnir",
+        "englishName": "Noivern"
+    },
+    {
+        "id": 716,
+        "germanName": "Xerneas",
+        "englishName": "Xerneas"
+    },
+    {
+        "id": 717,
+        "germanName": "Yveltal",
+        "englishName": "Yveltal"
+    },
+    {
+        "id": 718,
+        "germanName": "Zygarde",
+        "englishName": "Zygarde"
+    },
+    {
+        "id": 719,
+        "germanName": "Diancie",
+        "englishName": "Diancie"
+    },
+    {
+        "id": 720,
+        "germanName": "Hoopa",
+        "englishName": "Hoopa"
+    },
+    {
+        "id": 721,
+        "germanName": "Volcanion",
+        "englishName": "Volcanion"
+    },
+    {
+        "id": 722,
+        "germanName": "Bauz",
+        "englishName": "Rowlet"
+    },
+    {
+        "id": 723,
+        "germanName": "Arboretoss",
+        "englishName": "Dartrix"
+    },
+    {
+        "id": 724,
+        "germanName": "Silvarro",
+        "englishName": "Decidueye"
+    },
+    {
+        "id": 725,
+        "germanName": "Flamiau",
+        "englishName": "Litten"
+    },
+    {
+        "id": 726,
+        "germanName": "Miezunder",
+        "englishName": "Torracat"
+    },
+    {
+        "id": 727,
+        "germanName": "Fuegro",
+        "englishName": "Incineroar"
+    },
+    {
+        "id": 728,
+        "germanName": "Robball",
+        "englishName": "Popplio"
+    },
+    {
+        "id": 729,
+        "germanName": "Marikeck",
+        "englishName": "Brionne"
+    },
+    {
+        "id": 730,
+        "germanName": "Primarene",
+        "englishName": "Primarina"
+    },
+    {
+        "id": 731,
+        "germanName": "Peppeck",
+        "englishName": "Pikipek"
+    },
+    {
+        "id": 732,
+        "germanName": "Trompeck",
+        "englishName": "Trumbeak"
+    },
+    {
+        "id": 733,
+        "germanName": "Tukanon",
+        "englishName": "Toucannon"
+    },
+    {
+        "id": 734,
+        "germanName": "Mangunior",
+        "englishName": "Yungoos"
+    },
+    {
+        "id": 735,
+        "germanName": "Manguspektor",
+        "englishName": "Gumshoos"
+    },
+    {
+        "id": 736,
+        "germanName": "Mabula",
+        "englishName": "Grubbin"
+    },
+    {
+        "id": 737,
+        "germanName": "Akkup",
+        "englishName": "Charjabug"
+    },
+    {
+        "id": 738,
+        "germanName": "Donarion",
+        "englishName": "Vikavolt"
+    },
+    {
+        "id": 739,
+        "germanName": "Krabbox",
+        "englishName": "Crabrawler"
+    },
+    {
+        "id": 740,
+        "germanName": "Krawell",
+        "englishName": "Crabominable"
+    },
+    {
+        "id": 741,
+        "germanName": "Choreogel",
+        "englishName": "Oricorio"
+    },
+    {
+        "id": 742,
+        "germanName": "Wommel",
+        "englishName": "Cutiefly"
+    },
+    {
+        "id": 743,
+        "germanName": "Bandelby",
+        "englishName": "Ribombee"
+    },
+    {
+        "id": 744,
+        "germanName": "Wuffels",
+        "englishName": "Rockruff"
+    },
+    {
+        "id": 745,
+        "germanName": "Wolwerock",
+        "englishName": "Lycanroc"
+    },
+    {
+        "id": 746,
+        "germanName": "Lusardin",
+        "englishName": "Wishiwashi"
+    },
+    {
+        "id": 747,
+        "germanName": "Garstella",
+        "englishName": "Mareanie"
+    },
+    {
+        "id": 748,
+        "germanName": "Aggrostella",
+        "englishName": "Toxapex"
+    },
+    {
+        "id": 749,
+        "germanName": "Pampuli",
+        "englishName": "Mudbray"
+    },
+    {
+        "id": 750,
+        "germanName": "Pampross",
+        "englishName": "Mudsdale"
+    },
+    {
+        "id": 751,
+        "germanName": "Araqua",
+        "englishName": "Dewpider"
+    },
+    {
+        "id": 752,
+        "germanName": "Aranestro",
+        "englishName": "Araquanid"
+    },
+    {
+        "id": 753,
+        "germanName": "Imantis",
+        "englishName": "Fomantis"
+    },
+    {
+        "id": 754,
+        "germanName": "Mantidea",
+        "englishName": "Lurantis"
+    },
+    {
+        "id": 755,
+        "germanName": "Bubungus",
+        "englishName": "Morelull"
+    },
+    {
+        "id": 756,
+        "germanName": "Lamellux",
+        "englishName": "Shiinotic"
+    },
+    {
+        "id": 757,
+        "germanName": "Molunk",
+        "englishName": "Salandit"
+    },
+    {
+        "id": 758,
+        "germanName": "Amfira",
+        "englishName": "Salazzle"
+    },
+    {
+        "id": 759,
+        "germanName": "Velursi",
+        "englishName": "Stufful"
+    },
+    {
+        "id": 760,
+        "germanName": "Kosturso",
+        "englishName": "Bewear"
+    },
+    {
+        "id": 761,
+        "germanName": "Frubberl",
+        "englishName": "Bounsweet"
+    },
+    {
+        "id": 762,
+        "germanName": "Frubaila",
+        "englishName": "Steenee"
+    },
+    {
+        "id": 763,
+        "germanName": "Fruyal",
+        "englishName": "Tsareena"
+    },
+    {
+        "id": 764,
+        "germanName": "Curelei",
+        "englishName": "Comfey"
+    },
+    {
+        "id": 765,
+        "germanName": "Kommandutan",
+        "englishName": "Oranguru"
+    },
+    {
+        "id": 766,
+        "germanName": "Quartermak",
+        "englishName": "Passimian"
+    },
+    {
+        "id": 767,
+        "germanName": "Reißlaus",
+        "englishName": "Wimpod"
+    },
+    {
+        "id": 768,
+        "germanName": "Tectass",
+        "englishName": "Golisopod"
+    },
+    {
+        "id": 769,
+        "germanName": "Sankabuh",
+        "englishName": "Sandygast"
+    },
+    {
+        "id": 770,
+        "germanName": "Colossand",
+        "englishName": "Palossand"
+    },
+    {
+        "id": 771,
+        "germanName": "Gufa",
+        "englishName": "Pyukumuku"
+    },
+    {
+        "id": 772,
+        "germanName": "Typ:Null",
+        "englishName": "Type: Null"
+    },
+    {
+        "id": 773,
+        "germanName": "Amigento",
+        "englishName": "Silvally"
+    },
+    {
+        "id": 774,
+        "germanName": "Meteno",
+        "englishName": "Minior"
+    },
+    {
+        "id": 775,
+        "germanName": "Koalelu",
+        "englishName": "Komala"
+    },
+    {
+        "id": 776,
+        "germanName": "Tortunator",
+        "englishName": "Turtonator"
+    },
+    {
+        "id": 777,
+        "germanName": "Togedemaru",
+        "englishName": "Togedemaru"
+    },
+    {
+        "id": 778,
+        "germanName": "Mimigma",
+        "englishName": "Mimikyu"
+    },
+    {
+        "id": 779,
+        "germanName": "Knirfish",
+        "englishName": "Bruxish"
+    },
+    {
+        "id": 780,
+        "germanName": "Sen-Long",
+        "englishName": "Drampa"
+    },
+    {
+        "id": 781,
+        "germanName": "Moruda",
+        "englishName": "Dhelmise"
+    },
+    {
+        "id": 782,
+        "germanName": "Miniras",
+        "englishName": "Jangmo-o"
+    },
+    {
+        "id": 783,
+        "germanName": "Mediras",
+        "englishName": "Hakamo-o"
+    },
+    {
+        "id": 784,
+        "germanName": "Grandiras",
+        "englishName": "Kommo-o"
+    },
+    {
+        "id": 785,
+        "germanName": "Kapu-Riki",
+        "englishName": "Tapu Koko"
+    },
+    {
+        "id": 786,
+        "germanName": "Kapu-Fala",
+        "englishName": "Tapu Lele"
+    },
+    {
+        "id": 787,
+        "germanName": "Kapu-Toro",
+        "englishName": "Tapu Bulu"
+    },
+    {
+        "id": 788,
+        "germanName": "Kapu-Kime",
+        "englishName": "Tapu Fini"
+    },
+    {
+        "id": 789,
+        "germanName": "Cosmog",
+        "englishName": "Cosmog"
+    },
+    {
+        "id": 790,
+        "germanName": "Cosmovum",
+        "englishName": "Cosmoem"
+    },
+    {
+        "id": 791,
+        "germanName": "Solgaleo",
+        "englishName": "Solgaleo"
+    },
+    {
+        "id": 792,
+        "germanName": "Lunala",
+        "englishName": "Lunala"
+    },
+    {
+        "id": 793,
+        "germanName": "Anego",
+        "englishName": "Nihilego"
+    },
+    {
+        "id": 794,
+        "germanName": "Masskito",
+        "englishName": "Buzzwole"
+    },
+    {
+        "id": 795,
+        "germanName": "Schabelle",
+        "englishName": "Pheromosa"
+    },
+    {
+        "id": 796,
+        "germanName": "Voltriant",
+        "englishName": "Xurkitree"
+    },
+    {
+        "id": 797,
+        "germanName": "Kaguron",
+        "englishName": "Celesteela"
+    },
+    {
+        "id": 798,
+        "germanName": "Katagami",
+        "englishName": "Kartana"
+    },
+    {
+        "id": 799,
+        "germanName": "Schlingking",
+        "englishName": "Guzzlord"
+    },
+    {
+        "id": 800,
+        "germanName": "Necrozma",
+        "englishName": "Necrozma"
+    },
+    {
+        "id": 801,
+        "germanName": "Magearna",
+        "englishName": "Magearna"
+    },
+    {
+        "id": 802,
+        "germanName": "Marshadow",
+        "englishName": "Marshadow"
+    },
+    {
+        "id": 803,
+        "germanName": "Venicro",
+        "englishName": "Poipole"
+    },
+    {
+        "id": 804,
+        "germanName": "Agoyon",
+        "englishName": "Naganadel"
+    },
+    {
+        "id": 805,
+        "germanName": "Muramura",
+        "englishName": "Stakataka"
+    },
+    {
+        "id": 806,
+        "germanName": "Kopplosio",
+        "englishName": "Blacephalon"
+    },
+    {
+        "id": 807,
+        "germanName": "Zeraora",
+        "englishName": "Zeraora"
+    },
+    {
+        "id": 808,
+        "germanName": "Meltan",
+        "englishName": "Meltan"
+    },
+    {
+        "id": 809,
+        "germanName": "Melmetal",
+        "englishName": "Melmetal"
+    },
+    {
+        "id": 810,
+        "germanName": "Chimpep",
+        "englishName": "Grookey"
+    },
+    {
+        "id": 811,
+        "germanName": "Chimstix",
+        "englishName": "Thwackey"
+    },
+    {
+        "id": 812,
+        "germanName": "Gortrom",
+        "englishName": "Rillaboom"
+    },
+    {
+        "id": 813,
+        "germanName": "Hopplo",
+        "englishName": "Scorbunny"
+    },
+    {
+        "id": 814,
+        "germanName": "Kickerlo",
+        "englishName": "Raboot"
+    },
+    {
+        "id": 815,
+        "germanName": "Liberlo",
+        "englishName": "Cinderace"
+    },
+    {
+        "id": 816,
+        "germanName": "Memmeon",
+        "englishName": "Sobble"
+    },
+    {
+        "id": 817,
+        "germanName": "Phlegleon",
+        "englishName": "Drizzile"
+    },
+    {
+        "id": 818,
+        "germanName": "Intelleon",
+        "englishName": "Inteleon"
+    },
+    {
+        "id": 819,
+        "germanName": "Raffel",
+        "englishName": "Skwovet"
+    },
+    {
+        "id": 820,
+        "germanName": "Schlaraffel",
+        "englishName": "Greedent"
+    },
+    {
+        "id": 821,
+        "germanName": "Meikro",
+        "englishName": "Rookidee"
+    },
+    {
+        "id": 822,
+        "germanName": "Kranoviz",
+        "englishName": "Corvisquire"
+    },
+    {
+        "id": 823,
+        "germanName": "Krarmor",
+        "englishName": "Corviknight"
+    },
+    {
+        "id": 824,
+        "germanName": "Sensect",
+        "englishName": "Blipbug"
+    },
+    {
+        "id": 825,
+        "germanName": "Keradar",
+        "englishName": "Dottler"
+    },
+    {
+        "id": 826,
+        "germanName": "Maritellit",
+        "englishName": "Orbeetle"
+    },
+    {
+        "id": 827,
+        "germanName": "Kleptifux",
+        "englishName": "Nickit"
+    },
+    {
+        "id": 828,
+        "germanName": "Gaunux",
+        "englishName": "Thievul"
+    },
+    {
+        "id": 829,
+        "germanName": "Cottini",
+        "englishName": "Gossifleur"
+    },
+    {
+        "id": 830,
+        "germanName": "Cottomi",
+        "englishName": "Eldegoss"
+    },
+    {
+        "id": 831,
+        "germanName": "Wolly",
+        "englishName": "Wooloo"
+    },
+    {
+        "id": 832,
+        "germanName": "Zwollock",
+        "englishName": "Dubwool"
+    },
+    {
+        "id": 833,
+        "germanName": "Kamehaps",
+        "englishName": "Chewtle"
+    },
+    {
+        "id": 834,
+        "germanName": "Kamalm",
+        "englishName": "Drednaw"
+    },
+    {
+        "id": 835,
+        "germanName": "Voldi",
+        "englishName": "Yamper"
+    },
+    {
+        "id": 836,
+        "germanName": "Bellektro",
+        "englishName": "Boltund"
+    },
+    {
+        "id": 837,
+        "germanName": "Klonkett",
+        "englishName": "Rolycoly"
+    },
+    {
+        "id": 838,
+        "germanName": "Wagong",
+        "englishName": "Carkol"
+    },
+    {
+        "id": 839,
+        "germanName": "Montecarbo",
+        "englishName": "Coalossal"
+    },
+    {
+        "id": 840,
+        "germanName": "Knapfel",
+        "englishName": "Applin"
+    },
+    {
+        "id": 841,
+        "germanName": "Drapfel",
+        "englishName": "Flapple"
+    },
+    {
+        "id": 842,
+        "germanName": "Schlapfel",
+        "englishName": "Appletun"
+    },
+    {
+        "id": 843,
+        "germanName": "Salanga",
+        "englishName": "Silicobra"
+    },
+    {
+        "id": 844,
+        "germanName": "Sanaconda",
+        "englishName": "Sandaconda"
+    },
+    {
+        "id": 845,
+        "germanName": "Urgl",
+        "englishName": "Cramorant"
+    },
+    {
+        "id": 846,
+        "germanName": "Pikuda",
+        "englishName": "Arrokuda"
+    },
+    {
+        "id": 847,
+        "germanName": "Barrakiefa",
+        "englishName": "Barraskewda"
+    },
+    {
+        "id": 848,
+        "germanName": "Toxel",
+        "englishName": "Toxel"
+    },
+    {
+        "id": 849,
+        "germanName": "Riffex",
+        "englishName": "Toxtricity"
+    },
+    {
+        "id": 850,
+        "germanName": "Thermopod",
+        "englishName": "Sizzlipede"
+    },
+    {
+        "id": 851,
+        "germanName": "Infernopod",
+        "englishName": "Centiskorch"
+    },
+    {
+        "id": 852,
+        "germanName": "Klopptopus",
+        "englishName": "Clobbopus"
+    },
+    {
+        "id": 853,
+        "germanName": "Kaocto",
+        "englishName": "Grapploct"
+    },
+    {
+        "id": 854,
+        "germanName": "Fatalitee",
+        "englishName": "Sinistea"
+    },
+    {
+        "id": 855,
+        "germanName": "Mortipot",
+        "englishName": "Polteageist"
+    },
+    {
+        "id": 856,
+        "germanName": "Brimova",
+        "englishName": "Hatenna"
+    },
+    {
+        "id": 857,
+        "germanName": "Brimano",
+        "englishName": "Hattrem"
+    },
+    {
+        "id": 858,
+        "germanName": "Silembrim",
+        "englishName": "Hatterene"
+    },
+    {
+        "id": 859,
+        "germanName": "Bähmon",
+        "englishName": "Impidimp"
+    },
+    {
+        "id": 860,
+        "germanName": "Pelzebub",
+        "englishName": "Morgrem"
+    },
+    {
+        "id": 861,
+        "germanName": "Olangaar",
+        "englishName": "Grimmsnarl"
+    },
+    {
+        "id": 862,
+        "germanName": "Barrikadax",
+        "englishName": "Obstagoon"
+    },
+    {
+        "id": 863,
+        "germanName": "Mauzinger",
+        "englishName": "Perrserker"
+    },
+    {
+        "id": 864,
+        "germanName": "Gorgasonn",
+        "englishName": "Cursola"
+    },
+    {
+        "id": 865,
+        "germanName": "Lauchzelot",
+        "englishName": "Sirfetch’d"
+    },
+    {
+        "id": 866,
+        "germanName": "Pantifrost",
+        "englishName": "Mr. Rime"
+    },
+    {
+        "id": 867,
+        "germanName": "Oghnatoll",
+        "englishName": "Runerigus"
+    },
+    {
+        "id": 868,
+        "germanName": "Hokumil",
+        "englishName": "Milcery"
+    },
+    {
+        "id": 869,
+        "germanName": "Pokusan",
+        "englishName": "Alcremie"
+    },
+    {
+        "id": 870,
+        "germanName": "Legios",
+        "englishName": "Falinks"
+    },
+    {
+        "id": 871,
+        "germanName": "Britzigel",
+        "englishName": "Pincurchin"
+    },
+    {
+        "id": 872,
+        "germanName": "Snomnom",
+        "englishName": "Snom"
+    },
+    {
+        "id": 873,
+        "germanName": "Mottineva",
+        "englishName": "Frosmoth"
+    },
+    {
+        "id": 874,
+        "germanName": "Humanolith",
+        "englishName": "Stonjourner"
+    },
+    {
+        "id": 875,
+        "germanName": "Kubuin",
+        "englishName": "Eiscue"
+    },
+    {
+        "id": 876,
+        "germanName": "Servol",
+        "englishName": "Indeedee"
+    },
+    {
+        "id": 877,
+        "germanName": "Morpeko",
+        "englishName": "Morpeko"
+    },
+    {
+        "id": 878,
+        "germanName": "Kupfanti",
+        "englishName": "Cufant"
+    },
+    {
+        "id": 879,
+        "germanName": "Patinaraja",
+        "englishName": "Copperajah"
+    },
+    {
+        "id": 880,
+        "germanName": "Lectragon",
+        "englishName": "Dracozolt"
+    },
+    {
+        "id": 881,
+        "germanName": "Lecryodon",
+        "englishName": "Arctozolt"
+    },
+    {
+        "id": 882,
+        "germanName": "Pescragon",
+        "englishName": "Dracovish"
+    },
+    {
+        "id": 883,
+        "germanName": "Pescryodon",
+        "englishName": "Arctovish"
+    },
+    {
+        "id": 884,
+        "germanName": "Duraludon",
+        "englishName": "Duraludon"
+    },
+    {
+        "id": 885,
+        "germanName": "Grolldra",
+        "englishName": "Dreepy"
+    },
+    {
+        "id": 886,
+        "germanName": "Phandra",
+        "englishName": "Drakloak"
+    },
+    {
+        "id": 887,
+        "germanName": "Katapuldra",
+        "englishName": "Dragapult"
+    },
+    {
+        "id": 888,
+        "germanName": "Zacian",
+        "englishName": "Zacian"
+    },
+    {
+        "id": 889,
+        "germanName": "Zamazenta",
+        "englishName": "Zamazenta"
+    },
+    {
+        "id": 890,
+        "germanName": "Endynalos",
+        "englishName": "Eternatus"
+    },
+    {
+        "id": 891,
+        "germanName": "Dakuma",
+        "englishName": "Kubfu"
+    },
+    {
+        "id": 892,
+        "germanName": "Wulaosu",
+        "englishName": "Urshifu"
+    },
+    {
+        "id": 893,
+        "germanName": "Zarude",
+        "englishName": "Zarude"
+    },
+    {
+        "id": 894,
+        "germanName": "Regieleki",
+        "englishName": "Regieleki"
+    },
+    {
+        "id": 895,
+        "germanName": "Regidrago",
+        "englishName": "Regidrago"
+    },
+    {
+        "id": 896,
+        "germanName": "Polaross",
+        "englishName": "Glastrier"
+    },
+    {
+        "id": 897,
+        "germanName": "Phantoross",
+        "englishName": "Spectrier"
+    },
+    {
+        "id": 898,
+        "germanName": "Coronospa",
+        "englishName": "Calyrex"
+    },
+    {
+        "id": 899,
+        "germanName": "Damythir",
+        "englishName": "Wyrdeer"
+    },
+    {
+        "id": 900,
+        "germanName": "Axantor",
+        "englishName": "Kleavor"
+    },
+    {
+        "id": 901,
+        "germanName": "Ursaluna",
+        "englishName": "Ursaluna"
+    },
+    {
+        "id": 902,
+        "germanName": "Salmagnis",
+        "englishName": "Basculegion"
+    },
+    {
+        "id": 903,
+        "germanName": "Snieboss",
+        "englishName": "Sneasler"
+    },
+    {
+        "id": 904,
+        "germanName": "Myriador",
+        "englishName": "Overqwil"
+    },
+    {
+        "id": 905,
+        "germanName": "Cupidos",
+        "englishName": "Enamorus"
+    },
+    {
+        "id": 906,
+        "germanName": "Felori",
+        "englishName": "Sprigatito"
+    },
+    {
+        "id": 907,
+        "germanName": "Feliospa",
+        "englishName": "Floragato"
+    },
+    {
+        "id": 908,
+        "germanName": "Maskagato",
+        "englishName": "Meowscarada"
+    },
+    {
+        "id": 909,
+        "germanName": "Krokel",
+        "englishName": "Fuecoco"
+    },
+    {
+        "id": 910,
+        "germanName": "Lokroko",
+        "englishName": "Crocalor"
+    },
+    {
+        "id": 911,
+        "germanName": "Skelokrok",
+        "englishName": "Skeledirge"
+    },
+    {
+        "id": 912,
+        "germanName": "Kwaks",
+        "englishName": "Quaxly"
+    },
+    {
+        "id": 913,
+        "germanName": "Fuentente",
+        "englishName": "Quaxwell"
+    },
+    {
+        "id": 914,
+        "germanName": "Bailonda",
+        "englishName": "Quaquaval"
+    },
+    {
+        "id": 915,
+        "germanName": "Ferkuli",
+        "englishName": "Lechonk"
+    },
+    {
+        "id": 916,
+        "germanName": "Fragrunz",
+        "englishName": "Oinkologne"
+    },
+    {
+        "id": 917,
+        "germanName": "Tarundel",
+        "englishName": "Tarountula"
+    },
+    {
+        "id": 918,
+        "germanName": "Spinsidias",
+        "englishName": "Spidops"
+    },
+    {
+        "id": 919,
+        "germanName": "Micrick",
+        "englishName": "Nymble"
+    },
+    {
+        "id": 920,
+        "germanName": "Lextremo",
+        "englishName": "Lokix"
+    },
+    {
+        "id": 921,
+        "germanName": "Pamo",
+        "englishName": "Pawmi"
+    },
+    {
+        "id": 922,
+        "germanName": "Pamamo",
+        "englishName": "Pawmo"
+    },
+    {
+        "id": 923,
+        "germanName": "Pamomamo",
+        "englishName": "Pawmot"
+    },
+    {
+        "id": 924,
+        "germanName": "Zwieps",
+        "englishName": "Tandemaus"
+    },
+    {
+        "id": 925,
+        "germanName": "Famieps",
+        "englishName": "Maushold"
+    },
+    {
+        "id": 926,
+        "germanName": "Hefel",
+        "englishName": "Fidough"
+    },
+    {
+        "id": 927,
+        "germanName": "Backel",
+        "englishName": "Dachsbun"
+    },
+    {
+        "id": 928,
+        "germanName": "Olini",
+        "englishName": "Smoliv"
+    },
+    {
+        "id": 929,
+        "germanName": "Olivinio",
+        "englishName": "Dolliv"
+    },
+    {
+        "id": 930,
+        "germanName": "Olithena",
+        "englishName": "Arboliva"
+    },
+    {
+        "id": 931,
+        "germanName": "Krawalloro",
+        "englishName": "Squawkabilly"
+    },
+    {
+        "id": 932,
+        "germanName": "Geosali",
+        "englishName": "Nacli"
+    },
+    {
+        "id": 933,
+        "germanName": "Sedisal",
+        "englishName": "Naclstack"
+    },
+    {
+        "id": 934,
+        "germanName": "Saltigant",
+        "englishName": "Garganacl"
+    },
+    {
+        "id": 935,
+        "germanName": "Knarbon",
+        "englishName": "Charcadet"
+    },
+    {
+        "id": 936,
+        "germanName": "Crimanzo",
+        "englishName": "Armarouge"
+    },
+    {
+        "id": 937,
+        "germanName": "Azugladis",
+        "englishName": "Ceruledge"
+    },
+    {
+        "id": 938,
+        "germanName": "Blipp",
+        "englishName": "Tadbulb"
+    },
+    {
+        "id": 939,
+        "germanName": "Wampitz",
+        "englishName": "Bellibolt"
+    },
+    {
+        "id": 940,
+        "germanName": "Voltrel",
+        "englishName": "Wattrel"
+    },
+    {
+        "id": 941,
+        "germanName": "Voltrean",
+        "englishName": "Kilowattrel"
+    },
+    {
+        "id": 942,
+        "germanName": "Mobtiff",
+        "englishName": "Maschiff"
+    },
+    {
+        "id": 943,
+        "germanName": "Mastifioso",
+        "englishName": "Mabosstiff"
+    },
+    {
+        "id": 944,
+        "germanName": "Sproxi",
+        "englishName": "Shroodle"
+    },
+    {
+        "id": 945,
+        "germanName": "Affiti",
+        "englishName": "Grafaiai"
+    },
+    {
+        "id": 946,
+        "germanName": "Weherba",
+        "englishName": "Bramblin"
+    },
+    {
+        "id": 947,
+        "germanName": "Horrerba",
+        "englishName": "Brambleghast"
+    },
+    {
+        "id": 948,
+        "germanName": "Tentagra",
+        "englishName": "Toedscool"
+    },
+    {
+        "id": 949,
+        "germanName": "Tenterra",
+        "englishName": "Toedscruel"
+    },
+    {
+        "id": 950,
+        "germanName": "Klibbe",
+        "englishName": "Klawf"
+    },
+    {
+        "id": 951,
+        "germanName": "Chilingel",
+        "englishName": "Capsakid"
+    },
+    {
+        "id": 952,
+        "germanName": "Halupenjo",
+        "englishName": "Scovillain"
+    },
+    {
+        "id": 953,
+        "germanName": "Relluk",
+        "englishName": "Rellor"
+    },
+    {
+        "id": 954,
+        "germanName": "Skarabaks",
+        "englishName": "Rabsca"
+    },
+    {
+        "id": 955,
+        "germanName": "Flattutu",
+        "englishName": "Flittle"
+    },
+    {
+        "id": 956,
+        "germanName": "Psiopatra",
+        "englishName": "Espathra"
+    },
+    {
+        "id": 957,
+        "germanName": "Forgita",
+        "englishName": "Tinkatink"
+    },
+    {
+        "id": 958,
+        "germanName": "Tafforgita",
+        "englishName": "Tinkatuff"
+    },
+    {
+        "id": 959,
+        "germanName": "Granforgita",
+        "englishName": "Tinkaton"
+    },
+    {
+        "id": 960,
+        "germanName": "Schligda",
+        "englishName": "Wiglett"
+    },
+    {
+        "id": 961,
+        "germanName": "Schligdri",
+        "englishName": "Wugtrio"
+    },
+    {
+        "id": 962,
+        "germanName": "Adebom",
+        "englishName": "Bombirdier"
+    },
+    {
+        "id": 963,
+        "germanName": "Normifin",
+        "englishName": "Finizen"
+    },
+    {
+        "id": 964,
+        "germanName": "Delfinator",
+        "englishName": "Palafin"
+    },
+    {
+        "id": 965,
+        "germanName": "Knattox",
+        "englishName": "Varoom"
+    },
+    {
+        "id": 966,
+        "germanName": "Knattatox",
+        "englishName": "Revavroom"
+    },
+    {
+        "id": 967,
+        "germanName": "Mopex",
+        "englishName": "Cyclizar"
+    },
+    {
+        "id": 968,
+        "germanName": "Schlurm",
+        "englishName": "Orthworm"
+    },
+    {
+        "id": 969,
+        "germanName": "Lumispross",
+        "englishName": "Glimmet"
+    },
+    {
+        "id": 970,
+        "germanName": "Lumiflora",
+        "englishName": "Glimmora"
+    },
+    {
+        "id": 971,
+        "germanName": "Gruff",
+        "englishName": "Greavard"
+    },
+    {
+        "id": 972,
+        "germanName": "Friedwuff",
+        "englishName": "Houndstone"
+    },
+    {
+        "id": 973,
+        "germanName": "Flaminkno",
+        "englishName": "Flamigo"
+    },
+    {
+        "id": 974,
+        "germanName": "Flaniwal",
+        "englishName": "Cetoddle"
+    },
+    {
+        "id": 975,
+        "germanName": "Kolowal",
+        "englishName": "Cetitan"
+    },
+    {
+        "id": 976,
+        "germanName": "Agiluza",
+        "englishName": "Veluza"
+    },
+    {
+        "id": 977,
+        "germanName": "Heerashai",
+        "englishName": "Dondozo"
+    },
+    {
+        "id": 978,
+        "germanName": "Nigiragi",
+        "englishName": "Tatsugiri"
+    },
+    {
+        "id": 979,
+        "germanName": "Epitaff",
+        "englishName": "Annihilape"
+    },
+    {
+        "id": 980,
+        "germanName": "Suelord",
+        "englishName": "Clodsire"
+    },
+    {
+        "id": 981,
+        "germanName": "Farigiraf",
+        "englishName": "Farigiraf"
+    },
+    {
+        "id": 982,
+        "germanName": "Dummimisel",
+        "englishName": "Dudunsparce"
+    },
+    {
+        "id": 983,
+        "germanName": "Gladimperio",
+        "englishName": "Kingambit"
+    },
+    {
+        "id": 984,
+        "germanName": "Riesenzahn",
+        "englishName": "Great Tusk"
+    },
+    {
+        "id": 985,
+        "germanName": "Brüllschweif",
+        "englishName": "Scream Tail"
+    },
+    {
+        "id": 986,
+        "germanName": "Wutpilz",
+        "englishName": "Brute Bonnet"
+    },
+    {
+        "id": 987,
+        "germanName": "Flatterhaar",
+        "englishName": "Flutter Mane"
+    },
+    {
+        "id": 988,
+        "germanName": "Kriechflügel",
+        "englishName": "Slither Wing"
+    },
+    {
+        "id": 989,
+        "germanName": "Sandfell",
+        "englishName": "Sandy Shocks"
+    },
+    {
+        "id": 990,
+        "germanName": "Eisenrad",
+        "englishName": "Iron Treads"
+    },
+    {
+        "id": 991,
+        "germanName": "Eisenbündel",
+        "englishName": "Iron Bundle"
+    },
+    {
+        "id": 992,
+        "germanName": "Eisenhand",
+        "englishName": "Iron Hands"
+    },
+    {
+        "id": 993,
+        "germanName": "Eisenhals",
+        "englishName": "Iron Jugulis"
+    },
+    {
+        "id": 994,
+        "germanName": "Eisenfalter",
+        "englishName": "Iron Moth"
+    },
+    {
+        "id": 995,
+        "germanName": "Eisendorn",
+        "englishName": "Iron Thorns"
+    },
+    {
+        "id": 996,
+        "germanName": "Frospino",
+        "englishName": "Frigibax"
+    },
+    {
+        "id": 997,
+        "germanName": "Cryospino",
+        "englishName": "Arctibax"
+    },
+    {
+        "id": 998,
+        "germanName": "Espinodon",
+        "englishName": "Baxcalibur"
+    },
+    {
+        "id": 999,
+        "germanName": "Gierspenst",
+        "englishName": "Gimmighoul"
+    },
+    {
+        "id": 1000,
+        "germanName": "Monetigo",
+        "englishName": "Gholdengo"
+    },
+    {
+        "id": 1001,
+        "germanName": "Chongjian",
+        "englishName": "Wo-Chien"
+    },
+    {
+        "id": 1002,
+        "germanName": "Baojian",
+        "englishName": "Chien-Pao"
+    },
+    {
+        "id": 1003,
+        "germanName": "Dinglu",
+        "englishName": "Ting-Lu"
+    },
+    {
+        "id": 1004,
+        "germanName": "Yuyu",
+        "englishName": "Chi-Yu"
+    },
+    {
+        "id": 1005,
+        "germanName": "Donnersichel",
+        "englishName": "Roaring Moon"
+    },
+    {
+        "id": 1006,
+        "germanName": "Eisenkrieger",
+        "englishName": "Iron Valiant"
+    },
+    {
+        "id": 1007,
+        "germanName": "Koraidon",
+        "englishName": "Koraidon"
+    },
+    {
+        "id": 1008,
+        "germanName": "Miraidon",
+        "englishName": "Miraidon"
+    },
+    {
+        "id": 1009,
+        "germanName": "Windewoge",
+        "englishName": "Walking Wake"
+    },
+    {
+        "id": 1010,
+        "germanName": "Eisenblatt",
+        "englishName": "Iron Leaves"
+    },
+    {
+        "id": 1011,
+        "germanName": "Sirapfel",
+        "englishName": "Dipplin"
+    },
+    {
+        "id": 1012,
+        "germanName": "Mortcha",
+        "englishName": "Poltchageist"
+    },
+    {
+        "id": 1013,
+        "germanName": "Fatalitcha",
+        "englishName": "Sinistcha"
+    },
+    {
+        "id": 1014,
+        "germanName": "Boninu",
+        "englishName": "Okidogi"
+    },
+    {
+        "id": 1015,
+        "germanName": "Benesaru",
+        "englishName": "Munkidori"
+    },
+    {
+        "id": 1016,
+        "germanName": "Beatori",
+        "englishName": "Fezandipiti"
+    },
+    {
+        "id": 1017,
+        "germanName": "Ogerpon",
+        "englishName": "Ogerpon"
+    },
+    {
+        "id": 1018,
+        "germanName": "Briduradon",
+        "englishName": "Archaludon"
+    },
+    {
+        "id": 1019,
+        "germanName": "Hydrapfel",
+        "englishName": "Hydrapple"
+    },
+    {
+        "id": 1020,
+        "germanName": "Keilflamme",
+        "englishName": "Gouging Fire"
+    },
+    {
+        "id": 1021,
+        "germanName": "Furienblitz",
+        "englishName": "Raging Bolt"
+    },
+    {
+        "id": 1022,
+        "germanName": "Eisenfels",
+        "englishName": "Iron Boulder"
+    },
+    {
+        "id": 1023,
+        "germanName": "Eisenhaupt",
+        "englishName": "Iron Crown"
+    },
+    {
+        "id": 1024,
+        "germanName": "Terapagos",
+        "englishName": "Terapagos"
+    },
+    {
+        "id": 1025,
+        "germanName": "Infamomo",
+        "englishName": "Pecharunt"
+    }
+]
