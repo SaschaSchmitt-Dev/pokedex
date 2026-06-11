@@ -3,6 +3,7 @@ let allPokemonUpdated = [];
 let searchablePokemon = [];
 let loadedPokemonCards = [];
 const startValue = 20;
+let currentSearchId = 0;
 
 async function initPokemonDatabase() {
     await loadPokemonList();
@@ -100,14 +101,15 @@ async function getPokemonFormsCountData() {
 }
 
 function searchPokemon() {
+    const searchId = ++currentSearchId;
     const searchInput = getPokemonSearchInput();
 
     if (searchInput.length < 3) {
-        loadInitialPokemonCards();
+        loadInitialPokemonCards(searchId);
         return;
     }
 
-    showPokemonSearchResult(searchInput);
+    showPokemonSearchResult(searchInput, searchId);
 }
 
 function getPokemonSearchInput() {
