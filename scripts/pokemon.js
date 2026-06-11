@@ -1,5 +1,8 @@
 async function buildPokemonList(searchResult) {
     const searchResults = document.getElementById("fetchPokemon");
+    const pokemonContainer = document.getElementById("fetchPokemon");
+
+    pokemonContainer.innerHTML = "";
 
     if (searchResult.length === 0) {
         searchResults.innerHTML = getNoPokemonFoundTemplate();
