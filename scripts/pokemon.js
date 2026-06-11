@@ -154,8 +154,10 @@ function getBasicPokemonData(pokemon, species, pokemonTypes) {
         pokemon: pokemon,
         englishName: getEnglishPokemonName(pokemon),
         germanName: getGermanPokemonName(species, pokemon),
+        germanDescription: getPokemonDescription(species),
         primaryType: getPrimaryType(pokemonTypes),
         pokemonTypes: pokemonTypes,
+        germanStats: getPokemonStatsGer(),
         primarySprite: getPrimarySprite(pokemon)
     };
 }
