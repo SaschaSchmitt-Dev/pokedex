@@ -100,7 +100,8 @@ function getPokemonDialogTemplate(data) {
                     </div>
                 </div>
             </div>
-        </div>`;
+        </div>
+    `;
 }
 
 function getPokemonStatRowTemplate(statName, statValue, statWidth, primaryType) {
@@ -114,7 +115,8 @@ function getPokemonStatRowTemplate(statName, statValue, statWidth, primaryType) 
                 </div>
             </td>
             <td class="stat_max">255</td>
-        </tr>`;
+        </tr>
+    `;
 }
 
 function getPokemonStatsSumTemplate(statSum, primaryType) {
@@ -124,19 +126,23 @@ function getPokemonStatsSumTemplate(statSum, primaryType) {
             <td class="stat_value">${statSum}</td>
             <td></td>
             <td></td>
-        </tr>`;
+        </tr>
+    `;
 }
 function getEvolutionStepTemplate(evolutions, evolutionIndex, primaryType) {
     return `
         <div class="evolution_step">
             ${getEvolutionCardTemplate(evolutions[evolutionIndex], primaryType)}
             ${evolutionIndex < evolutions.length - 1 ? `<div class="evolution_arrow evolution_arrow_${primaryType}">➜</div>` : ""}
-        </div>`;
+        </div>
+    `;
 }
 
 function getEvolutionCardTemplate(evolution, primaryType) {
     return `
-        <div class="pokemon_evolution_card border_${primaryType} card_hover_${primaryType}" onclick="openPokemonDialog(${evolution.id})">
+        <button class="pokemon_evolution_card border_${primaryType} card_hover_${primaryType}"
+                type="button"
+                onclick="openPokemonDialog(${evolution.id})">
             <div class="evolution_pokemon_content center_elements">
                 <p>(ID: #${evolution.id})</p>
                 <h2 class="title_${primaryType} title_shadow">${evolution.germanName}</h2>
@@ -144,9 +150,12 @@ function getEvolutionCardTemplate(evolution, primaryType) {
                 <div class="evolution_pokemon_img center_elements">
                     <img src="${evolution.sprite}" alt="${evolution.germanName}">
                 </div>
-                <div class="evolution_pokemon_types">${renderTypeIcons(evolution.types)}</div>
+                <div class="evolution_pokemon_types">
+                    ${renderTypeIcons(evolution.types)}
+                </div>
             </div>
-        </div>`;
+        </button>
+    `;
 }
 
 function getEvolutionTreeTemplate(evolutionTreeHTML) {
@@ -157,7 +166,8 @@ function getEvolutionLeafTemplate(evolution, primaryType) {
     return `
         <div class="evolution_leaf">
             ${getEvolutionCardTemplate(evolution, primaryType)}
-        </div>`;
+        </div>
+    `;
 }
 
 function getEvolutionBranchTemplate(evolution, childrenHTML, primaryType) {
@@ -170,5 +180,20 @@ function getEvolutionBranchTemplate(evolution, childrenHTML, primaryType) {
             <div class="evolution_branch_children">
                 ${childrenHTML}
             </div>
-        </div>`;
+        </div>
+    `;
+}
+
+function getEvolutionRowBranchTemplate(evolution, childrenHTML, primaryType) {
+    return `
+        <div class="evolution_branch_step">
+            <div class="evolution_branch_parent">
+                ${getEvolutionCardTemplate(evolution, primaryType)}
+            </div>
+            <div class="evolution_arrow evolution_arrow_${primaryType} evolution_branch_arrow">➜</div>
+            <div class="evolution_branch_children row_direction">
+                ${childrenHTML}
+            </div>
+        </div>
+    `;
 }

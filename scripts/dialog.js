@@ -290,6 +290,10 @@ function renderBranchEvolutionTree(evolutionNode, primaryType) {
         return getEvolutionLeafTemplate(evolutionNode, primaryType);
     }
 
+    if (evolutionNode.children.length > 2) {
+        return getEvolutionRowBranchTemplate(evolutionNode, childrenHTML, primaryType);
+    }
+
     return getEvolutionBranchTemplate(evolutionNode, childrenHTML, primaryType);
 }
 
