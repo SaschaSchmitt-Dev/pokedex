@@ -70,6 +70,14 @@
     gap: 16px;
 }
 
+.interaction_buttons_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 30px;
+}
+
 .dialog_top_wrapper {
     display: flex;
     flex-wrap: wrap;

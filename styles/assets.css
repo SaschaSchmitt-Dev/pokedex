@@ -5,6 +5,7 @@
 }
 
 .load_more_button {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,7 +27,6 @@
         transform 0.2s ease,
         box-shadow 0.2s ease,
         filter 0.2s ease;
-    position: relative;
     overflow: hidden;
 }
 
@@ -86,6 +86,95 @@
 .search input:focus {
     border-color: var(--accent-primary);
     box-shadow: 0 0 12px rgba(255, 203, 5, 0.15);
+}
+
+.dialog_interaction_button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    padding-bottom: 5px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow:
+        inset 0 0px 5px rgba(255, 255, 255, 0.5),
+        0 0px 12px rgba(0, 0, 0, 0.25);
+    filter:
+        drop-shadow(0 0 4px rgba(255, 255, 255, 0.3)) drop-shadow(0 0 10px rgba(255, 255, 255, 0.15));
+    text-shadow:
+        -1.5px -1.5px 0 rgba(0, 0, 0, 0.6),
+        1.5px -1.5px 0 rgba(0, 0, 0, 0.6),
+        -1.5px 1.5px 0 rgba(0, 0, 0, 0.6),
+        1.5px 1.5px 0 rgba(0, 0, 0, 0.6),
+        0 0 6px rgba(255, 255, 255, 0.4);
+    color: rgb(245, 255, 246);
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+.dialog_interaction_button::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -150%;
+    width: 60%;
+    height: 200%;
+    transform: rotate(25deg);
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.35),
+            transparent);
+    transition: left 0.6s ease;
+}
+
+.dialog_interaction_button:hover::before {
+    left: 180%;
+}
+
+.dialog_interaction_button::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    height: 35%;
+
+    border-radius: 10px;
+
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.25),
+            rgba(255, 255, 255, 0.02));
+
+    pointer-events: none;
+}
+
+.dialog_interaction_button:hover {
+    background: rgba(255, 255, 255, 0.15);
+    border-color: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.dialog_interaction_button:active {
+    transform: scale(0.95);
+}
+
+.turn_button {
+    transform: rotateZ(180deg);
+}
+
+.turn_button:hover {
+    transform: translateY(-2px) rotateZ(180deg);
+}
+
+.turn_button:active {
+    transform: scale(0.95) rotateZ(180deg);
 }
 
 @media (max-width: 768px) {
