@@ -22,6 +22,7 @@ function openEmptyPokemonDialog(dialog) {
 async function fillPokemonDialog(dialog, id) {
     const pokemonData = await loadOnePokemonDialogData(id);
     dialog.innerHTML = getPokemonDialogTemplate(pokemonData);
+    hideLoader();
 }
 
 function showPokemonDialogError(dialog, error) {
@@ -57,7 +58,6 @@ function renderPokemonStatsRows(stats, germanStats, primaryType) {
     for (let statIndex = 0; statIndex < stats.length; statIndex++) {
         html += getPreparedStatRow(stats[statIndex], germanStats, primaryType);
     }
-
     return html;
 }
 
@@ -72,7 +72,6 @@ function getStatName(stat, germanStats) {
     if (germanStats[stat.stat.name]) {
         return germanStats[stat.stat.name];
     }
-
     return stat.stat.name;
 }
 
@@ -86,7 +85,6 @@ function calculatePokemonStatsSum(stats) {
     for (let statIndex = 0; statIndex < stats.length; statIndex++) {
         sum += stats[statIndex].base_stat;
     }
-
     return sum;
 }
 
@@ -105,7 +103,6 @@ async function buildPokemonDialogData(pokemon, species) {
         getPokemonAbilities(pokemon),
         getPokemonEvolution(species)
     ]);
-
     pokemonData.germanAbilities = dialogDetails[0];
     pokemonData.evolutions = dialogDetails[1];
 
@@ -120,7 +117,6 @@ function getPokemonDescription(species) {
             return entry.flavor_text.replace(/\f/g, " ");
         }
     }
-
     return "Keine Beschreibung vorhanden";
 }
 
@@ -131,7 +127,6 @@ async function getType(pokemonType) {
     if (germanName) {
         return germanName.name;
     }
-
     return pokemonType.type.name;
 }
 
@@ -150,7 +145,6 @@ async function getPokemonAbility(abilityEntry) {
     if (germanAbilityName) {
         return germanAbilityName.name;
     }
-
     return abilityEntry.ability.name;
 }
 
@@ -171,7 +165,6 @@ function getGermanTypeNames(pokemonTypes) {
     for (let typeIndex = 0; typeIndex < pokemonTypes.length; typeIndex++) {
         names.push(pokemonTypes[typeIndex].germanName);
     }
-
     return buildCommaSeparatedText(names);
 }
 
@@ -188,7 +181,6 @@ async function buildEvolutionTree(evolutionNode) {
             return buildEvolutionTree(childEvolution);
         })
     );
-
     evolutionDetails.children = children;
 
     return evolutionDetails;
@@ -210,7 +202,6 @@ function getDefaultPokemonForm(species) {
             return pokemonForms[formIndex];
         }
     }
-
     return pokemonForms[0];
 }
 
@@ -230,7 +221,6 @@ function buildCommaSeparatedText(textParts) {
     for (let textIndex = 0; textIndex < textParts.length; textIndex++) {
         commaSeparatedText += getCommaSeparatedTextPart(textParts, textIndex);
     }
-
     return commaSeparatedText;
 }
 
@@ -238,7 +228,6 @@ function getCommaSeparatedTextPart(textParts, textIndex) {
     if (textIndex < textParts.length - 1) {
         return textParts[textIndex] + ", ";
     }
-
     return textParts[textIndex];
 }
 
@@ -251,7 +240,6 @@ function renderEvolutionCards(evolutionTree, primaryType) {
     if (isLinearEvolutionTree(evolutionTree)) {
         return renderLinearEvolutionCards(flattenEvolutionTree(evolutionTree), primaryType);
     }
-
     return getEvolutionTreeTemplate(renderBranchEvolutionTree(evolutionTree, primaryType));
 }
 
@@ -263,7 +251,6 @@ function isLinearEvolutionTree(evolutionNode) {
     if (evolutionNode.children.length === 0) {
         return true;
     }
-
     return isLinearEvolutionTree(evolutionNode.children[0]);
 }
 
@@ -273,7 +260,6 @@ function flattenEvolutionTree(evolutionNode) {
     if (evolutionNode.children.length === 1) {
         return evolutions.concat(flattenEvolutionTree(evolutionNode.children[0]));
     }
-
     return evolutions;
 }
 
@@ -283,7 +269,6 @@ function renderLinearEvolutionCards(evolutions, primaryType) {
     for (let evolutionIndex = 0; evolutionIndex < evolutions.length; evolutionIndex++) {
         html += getEvolutionStepTemplate(evolutions, evolutionIndex, primaryType);
     }
-
     return html;
 }
 
@@ -298,7 +283,6 @@ function renderBranchEvolutionTree(evolutionNode, primaryType) {
     if (evolutionNode.children.length > 2) {
         return getEvolutionRowBranchTemplate(evolutionNode, childrenHTML, primaryType);
     }
-
     return getEvolutionBranchTemplate(evolutionNode, childrenHTML, primaryType);
 }
 
@@ -313,7 +297,6 @@ function openPreviousPokemon() {
                 showLoader();
                 openPokemonDialog(Number(cards[fetchedIndex - 1].id));
             }
-
             break;
         }
     }
@@ -330,7 +313,6 @@ function openNextPokemon() {
                 showLoader();
                 openPokemonDialog(Number(cards[fetchedIndex + 1].id));
             }
-
             break;
         }
     }

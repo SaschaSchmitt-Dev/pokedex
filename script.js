@@ -26,7 +26,6 @@ function loadUpdatedPokemonFromLocalStorage() {
         allPokemonUpdated = JSON.parse(savedPokemon);
         return;
     }
-
     allPokemonUpdated = [];
 }
 
@@ -56,7 +55,6 @@ async function loadMissingPokemon(startId, endId) {
             return getPokemonSearchEntry(pokemonId);
         })
     );
-
     saveNewPokemon(newPokemon);
 }
 
@@ -76,7 +74,6 @@ function getLanguageNameText(names, language) {
     if (nameObject) {
         return nameObject.name;
     }
-
     return "";
 }
 
@@ -86,7 +83,6 @@ function getNameByLanguage(names, language) {
             return names[nameIndex];
         }
     }
-
     return null;
 }
 
@@ -108,7 +104,6 @@ function searchPokemon() {
         loadInitialPokemonCards(searchId);
         return;
     }
-
     showPokemonSearchResult(searchInput, searchId);
 }
 
@@ -126,7 +121,6 @@ function showPokemonSearchResult(searchInput) {
         fetchPokemon(searchResult[0].id);
         return;
     }
-
     buildPokemonList(searchResult);
 }
 
@@ -136,7 +130,6 @@ function getMatchingPokemon(searchInput) {
     for (let pokemonIndex = 0; pokemonIndex < searchablePokemon.length; pokemonIndex++) {
         addPokemonIfMatching(searchResult, searchablePokemon[pokemonIndex], searchInput);
     }
-
     return searchResult;
 }
 
@@ -162,13 +155,11 @@ async function fetchPokeApi(url) {
     if (pokeApiCache.has(url)) {
         return pokeApiCache.get(url);
     }
-
     const response = await fetch(url);
 
     if (!response.ok) {
         throw new Error("PokeAPI request failed: " + response.status + " " + url);
     }
-
     const data = await response.json();
     pokeApiCache.set(url, data);
 
@@ -182,7 +173,6 @@ async function loadInitialPokemonCards() {
         await loadPokemonCardsByCount(Number(savedCount));
         return;
     }
-
     await loadMorePokemonCards();
 }
 
@@ -194,7 +184,6 @@ async function loadPokemonCardsByCount(count) {
             return loadOnePokemonCardData(pokemon.id);
         })
     );
-
     renderLoadedPokemonCards();
 }
 
@@ -204,12 +193,12 @@ async function loadMorePokemonCards() {
     const nextPokemon = searchablePokemon.slice(startIndex, endIndex);
 
     if (!nextPokemon.length) return;
+    showLoader();
 
     const newPokemonCards = await Promise.all(nextPokemon.map(function (pokemon) {
         return loadOnePokemonCardData(pokemon.id);
     })
     );
-
     loadedPokemonCards = loadedPokemonCards.concat(newPokemonCards);
     localStorage.setItem("loadedPokemonCount", loadedPokemonCards.length);
     renderLoadedPokemonCards();

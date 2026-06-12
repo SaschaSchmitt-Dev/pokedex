@@ -8,7 +8,6 @@ async function buildPokemonList(searchResult) {
         searchResults.innerHTML = getNoPokemonFoundTemplate();
         return;
     }
-
     await showPokemonList(searchResults, searchResult);
 }
 
@@ -69,7 +68,6 @@ function getPokemonTypeGermanName(typeData, pokemonType) {
     if (germanNameObject) {
         return germanNameObject.name;
     }
-
     return pokemonType.type.name;
 }
 
@@ -101,7 +99,6 @@ function getGermanPokemonName(species, pokemon) {
     if (germanName) {
         return germanName.name;
     }
-
     return pokemon.name;
 }
 
@@ -113,7 +110,6 @@ function getTypeIconUrl(typeData) {
     ) {
         return typeData.sprites["generation-viii"]["sword-shield"].symbol_icon;
     }
-
     return null;
 }
 
@@ -121,7 +117,6 @@ function getPokemonTypeIcon(typeData) {
     if (getTypeIconUrl(typeData)) {
         return typeData.sprites["generation-viii"]["sword-shield"].symbol_icon;
     }
-
     return "";
 }
 
@@ -129,7 +124,6 @@ function getPrimaryType(pokemonTypes) {
     if (pokemonTypes.length > 0) {
         return pokemonTypes[0].englishName;
     }
-
     return "normal";
 }
 
@@ -137,7 +131,6 @@ function getPrimarySprite(pokemon) {
     if (pokemon.sprites.other.home.front_default) {
         return pokemon.sprites.other.home.front_default;
     }
-
     return getFallbackSprite(pokemon);
 }
 
@@ -145,7 +138,6 @@ function getFallbackSprite(pokemon) {
     if (pokemon.sprites.other["official-artwork"].front_default) {
         return pokemon.sprites.other["official-artwork"].front_default;
     }
-
     return pokemon.sprites.front_default;
 }
 
@@ -168,7 +160,6 @@ function renderPokemonList(pokemonDataList) {
     for (let pokemonIndex = 0; pokemonIndex < pokemonDataList.length; pokemonIndex++) {
         html += getPokemonTemplate(pokemonDataList[pokemonIndex]);
     }
-
     return html;
 }
 
@@ -178,7 +169,6 @@ function renderTypeIcons(types) {
     for (let typeIndex = 0; typeIndex < types.length; typeIndex++) {
         html += getTypeIconTemplate(types[typeIndex]);
     }
-
     return html;
 }
 
