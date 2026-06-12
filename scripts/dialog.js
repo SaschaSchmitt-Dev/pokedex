@@ -291,12 +291,10 @@ function openPreviousPokemon() {
 
     for (let fetchedIndex = 0; fetchedIndex < cards.length; fetchedIndex++) {
         if (Number(cards[fetchedIndex].id) === currentPokemonId) {
+            const previousIndex = (fetchedIndex - 1 + cards.length) % cards.length;
 
-            if (fetchedIndex > 0) {
-                console.log(cards[fetchedIndex - 1].id);
-                showLoader();
-                openPokemonDialog(Number(cards[fetchedIndex - 1].id));
-            }
+            showLoader();
+            openPokemonDialog(Number(cards[previousIndex].id));
             break;
         }
     }
@@ -307,12 +305,10 @@ function openNextPokemon() {
 
     for (let fetchedIndex = 0; fetchedIndex < cards.length; fetchedIndex++) {
         if (Number(cards[fetchedIndex].id) === currentPokemonId) {
+            const nextIndex = (fetchedIndex + 1) % cards.length;
 
-            if (fetchedIndex < cards.length - 1) {
-                console.log(cards[fetchedIndex + 1].id);
-                showLoader();
-                openPokemonDialog(Number(cards[fetchedIndex + 1].id));
-            }
+            showLoader();
+            openPokemonDialog(Number(cards[nextIndex].id));
             break;
         }
     }
