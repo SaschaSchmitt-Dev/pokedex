@@ -1,4 +1,7 @@
+let currentPokemonId = 0;
+
 async function openPokemonDialog(id) {
+    currentPokemonId = id;
     const dialog = document.getElementById("pokemonDetailsDialog");
     openEmptyPokemonDialog(dialog);
 
@@ -297,5 +300,32 @@ function renderBranchEvolutionTree(evolutionNode, primaryType) {
     return getEvolutionBranchTemplate(evolutionNode, childrenHTML, primaryType);
 }
 
+function openPreviousPokemon() {
+    let cards = document.querySelectorAll(".card_button");
 
+    for (let fetchedIndex = 0; fetchedIndex < cards.length; fetchedIndex++) {
+        if (Number(cards[fetchedIndex].id) === currentPokemonId) {
 
+            if (fetchedIndex < cards.length - 1) {
+                openPokemonDialog(Number(cards[fetchedIndex - 1].id));
+            }
+
+            break;
+        }
+    }
+}
+
+function openNextPokemon() {
+    let cards = document.querySelectorAll(".card_button");
+
+    for (let fetchedIndex = 0; fetchedIndex < cards.length; fetchedIndex++) {
+        if (Number(cards[fetchedIndex].id) === currentPokemonId) {
+
+            if (fetchedIndex < cards.length - 1) {
+                openPokemonDialog(Number(cards[fetchedIndex + 1].id));
+            }
+
+            break;
+        }
+    }
+}

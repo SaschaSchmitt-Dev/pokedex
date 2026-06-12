@@ -1,13 +1,13 @@
 function getPokemonTemplate(data) {
     return `
-        <button class="card_button" onclick="openPokemonDialog(${data.pokemon.id})">
+        <button data-id="card" id="${data.pokemon.id}" class="card_button" onclick="openPokemonDialog(${data.pokemon.id})">
             <div class="pokemon_card type_${data.primaryType} card_hover_${data.primaryType}">
                 <div class="pokemon_info">
                     <p class="improve_visibility">(ID: #${data.pokemon.id})</p>
                     <h2 class="improve_visibility">${data.germanName}</h2>
                     <p class="improve_visibility">(${data.englishName})</p>
                     <div class="pokemon_img" data-id="card-image">
-                        <img src="${data.primarySprite}" alt="${data.germanName}">
+                        <img data-id="card-image" src="${data.primarySprite}" alt="${data.germanName}">
                     </div>
                     <div class="pokemon_types">${renderTypeIcons(data.pokemonTypes)}</div>
                 </div>
@@ -21,7 +21,7 @@ function getSortedPokemonListTemplate(dataList) {
         <div class="fetch_pokemon">
         ${renderPokemonList(dataList)}
         </div>
-        <button class="load_more_button" data-id="load-more-button" onclick="loadMorePokemonCards()">
+        <button data-id="load-more-button" class="load_more_button"onclick="loadMorePokemonCards()">
             +20 Pokemon
         </button>
     `;
@@ -37,13 +37,13 @@ function getLoaderTemplate() {
 
 function getTypeIconTemplate(type) {
     return `
-        <img class="icon_${type.englishName}" src="${type.icon}" alt="${type.germanName}">
+        <img data-id="dialog-image" class="icon_${type.englishName}" src="${type.icon}" alt="${type.germanName}">
     `;
 }
 
 function getNoPokemonFoundTemplate() {
     return `
-        <div class="center" data-id="not-found">
+        <div data-id="not-found" class="center">
             <h3>Kein passendes Pokémon gefunden.</h3>
         </div>
     `;
@@ -59,48 +59,69 @@ function getPokemonErrorTemplate() {
 
 function getPokemonDialogTemplate(data) {
     return `
-        <div class="pokemon_dialog dialog_type_${data.primaryType}" onclick="event.stopPropagation()">
-            <div class="pokemon_dialog_content">
-                <div class="dialog_top_wrapper">
-                    <div class="dialog_pokemon_info center_elements">
-                        <p class="improve_visibility">(ID: #${data.pokemon.id})</p>
-                        <h2 class="improve_visibility title_${data.primaryType} title_shadow">${data.germanName}</h2>
-                        <p class="improve_visibility">(${data.englishName})</p>
-                        <div class="dialog_pokemon_img center_elements">
-                            <img src="${data.primarySprite}" alt="${data.germanName}">
-                        </div>
-                        <div class="dialog_pokemon_types">${renderTypeIcons(data.pokemonTypes)}</div>
-                    </div>
-                    <div class="dialog_pokemon_data">
-                        <div class="pokemon_data_top border_${data.primaryType}">
-                            <h5 class="title_${data.primaryType} title_shadow">Infos</h5>
-                            <table class="pokemon_table info_table info_table_${data.primaryType}">
-                                <tr><td>Pokédex-ID</td><td>${data.pokemon.id}</td></tr>
-                                <tr><td>Typ</td><td>${getGermanTypeNames(data.pokemonTypes)}</td></tr>
-                                <tr><td>Größe</td><td>${data.pokemon.height * 10} cm</td></tr>
-                                <tr><td>Gewicht</td><td>${data.pokemon.weight / 10} kg</td></tr>
-                                <tr><td>Fähigkeiten</td><td>${buildCommaSeparatedText(data.germanAbilities)}</td></tr>
-                            </table>
-                        </div>
-                        <div class="pokemon_data_bottom border_${data.primaryType}">
-                            <h5 class="title_${data.primaryType} title_shadow">Statuswerte</h5>
-                            <table class="pokemon_table stats_table stats_table_${data.primaryType}">
-                                ${renderPokemonStatsTable(data.pokemon.stats, data.germanStats, data.primaryType)}
-                            </table>
-                        </div>
-                    </div>
+        <div data-id="overlay-pokemon-name" class="pokemon_dialog dialog_type_${data.primaryType}"
+    onclick="event.stopPropagation()">
+    <div class="pokemon_dialog_content">
+        <div>
+            <button aria-label="Zurück" class="dialog_interaction_button" onclick="openPreviousPokemon()">←</button>
+            <button aria-label="Schließen" class="dialog_interaction_button" onclick="closeDialog('pokemonDetailsDialog')">✕</button>
+            <button aria-label="Weiter" class="dialog_interaction_button" onclick="openNextPokemon()">→</button>
+        </div>
+        <div class="dialog_top_wrapper">
+            <div class="dialog_pokemon_info center_elements">
+                <p class="improve_visibility">(ID: #${data.pokemon.id})</p>
+                <h2 class="improve_visibility title_${data.primaryType} title_shadow">${data.germanName}</h2>
+                <p class="improve_visibility">(${data.englishName})</p>
+                <div class="dialog_pokemon_img center_elements">
+                    <img data-id="dialog-image" src="${data.primarySprite}" alt="${data.germanName}">
                 </div>
-                <div class="dialog_pokemon_description center_elements border_${data.primaryType}">
-                    <h3>${data.germanDescription}</h3>
+                <div class="dialog_pokemon_types">${renderTypeIcons(data.pokemonTypes)}</div>
+            </div>
+            <div class="dialog_pokemon_data">
+                <div class="pokemon_data_top border_${data.primaryType}">
+                    <h5 class="title_${data.primaryType} title_shadow">Infos</h5>
+                    <table class="pokemon_table info_table info_table_${data.primaryType}">
+                        <tr>
+                            <td>Pokédex-ID</td>
+                            <td>${data.pokemon.id}</td>
+                        </tr>
+                        <tr>
+                            <td>Typ</td>
+                            <td>${getGermanTypeNames(data.pokemonTypes)}</td>
+                        </tr>
+                        <tr>
+                            <td>Größe</td>
+                            <td>${data.pokemon.height * 10} cm</td>
+                        </tr>
+                        <tr>
+                            <td>Gewicht</td>
+                            <td>${data.pokemon.weight / 10} kg</td>
+                        </tr>
+                        <tr>
+                            <td>Fähigkeiten</td>
+                            <td>${buildCommaSeparatedText(data.germanAbilities)}</td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="pokemon_evolution evolution_${data.primaryType}">
-                    <h4 class="title_${data.primaryType} title_shadow">Entwicklungen</h4>
-                    <div class="pokemon_evolution_cards">
-                        ${renderEvolutionCards(data.evolutions, data.primaryType)}
-                    </div>
+                <div class="pokemon_data_bottom border_${data.primaryType}">
+                    <h5 class="title_${data.primaryType} title_shadow">Statuswerte</h5>
+                    <table class="pokemon_table stats_table stats_table_${data.primaryType}">
+                        ${renderPokemonStatsTable(data.pokemon.stats, data.germanStats, data.primaryType)}
+                    </table>
                 </div>
             </div>
         </div>
+        <div class="dialog_pokemon_description center_elements border_${data.primaryType}">
+            <h3>${data.germanDescription}</h3>
+        </div>
+        <div class="pokemon_evolution evolution_${data.primaryType}">
+            <h4 class="title_${data.primaryType} title_shadow">Entwicklungen</h4>
+            <div class="pokemon_evolution_cards">
+                ${renderEvolutionCards(data.evolutions, data.primaryType)}
+            </div>
+        </div>
+    </div>
+</div>
     `;
 }
 
@@ -140,7 +161,7 @@ function getEvolutionStepTemplate(evolutions, evolutionIndex, primaryType) {
 
 function getEvolutionCardTemplate(evolution, primaryType) {
     return `
-        <button class="pokemon_evolution_card border_${primaryType} card_hover_${primaryType}"
+        <button data-id="card" class="pokemon_evolution_card border_${primaryType} card_hover_${primaryType}"
                 type="button"
                 onclick="openPokemonDialog(${evolution.id})">
             <div class="evolution_pokemon_content center_elements">
@@ -148,7 +169,7 @@ function getEvolutionCardTemplate(evolution, primaryType) {
                 <h2 class="title_${primaryType} title_shadow">${evolution.germanName}</h2>
                 <p>(${evolution.englishName})</p>
                 <div class="evolution_pokemon_img center_elements">
-                    <img src="${evolution.sprite}" alt="${evolution.germanName}">
+                    <img data-id="card-image" src="${evolution.sprite}" alt="${evolution.germanName}">
                 </div>
                 <div class="evolution_pokemon_types">
                     ${renderTypeIcons(evolution.types)}
