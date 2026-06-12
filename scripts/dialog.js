@@ -3,6 +3,7 @@ let currentPokemonId = 0;
 async function openPokemonDialog(id) {
     currentPokemonId = id;
     const dialog = document.getElementById("pokemonDetailsDialog");
+    showLoader();
     openEmptyPokemonDialog(dialog);
 
     try {
@@ -13,7 +14,7 @@ async function openPokemonDialog(id) {
 }
 
 function openEmptyPokemonDialog(dialog) {
-    dialog.innerHTML = getLoaderTemplate();
+    showLoader();
     dialog.showModal();
     document.body.classList.add("no_scroll");
 }
@@ -35,6 +36,7 @@ function closeDialog(dialogId) {
         dialogRef.close();
     }
 
+    hideLoader();
     document.body.classList.remove("no_scroll");
 }
 
@@ -301,12 +303,14 @@ function renderBranchEvolutionTree(evolutionNode, primaryType) {
 }
 
 function openPreviousPokemon() {
-    let cards = document.querySelectorAll(".card_button");
+    const cards = document.querySelectorAll(".card_button");
 
     for (let fetchedIndex = 0; fetchedIndex < cards.length; fetchedIndex++) {
         if (Number(cards[fetchedIndex].id) === currentPokemonId) {
 
-            if (fetchedIndex < cards.length - 1) {
+            if (fetchedIndex > 0) {
+                console.log(cards[fetchedIndex - 1].id);
+                showLoader();
                 openPokemonDialog(Number(cards[fetchedIndex - 1].id));
             }
 
@@ -316,12 +320,14 @@ function openPreviousPokemon() {
 }
 
 function openNextPokemon() {
-    let cards = document.querySelectorAll(".card_button");
+    const cards = document.querySelectorAll(".card_button");
 
     for (let fetchedIndex = 0; fetchedIndex < cards.length; fetchedIndex++) {
         if (Number(cards[fetchedIndex].id) === currentPokemonId) {
 
             if (fetchedIndex < cards.length - 1) {
+                console.log(cards[fetchedIndex + 1].id);
+                showLoader();
                 openPokemonDialog(Number(cards[fetchedIndex + 1].id));
             }
 
