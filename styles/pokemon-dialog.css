@@ -11,7 +11,7 @@
     border-radius: 24px;
     background: none;
     border: none;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 .pokemon_details_dialog[open]::backdrop {
@@ -41,7 +41,9 @@
 
 .pokemon_dialog {
     max-width: 1280px;
-    padding: 24px 28px 16px;
+    max-height: calc(100dvh - 24px);
+    padding: 10px;
+    overflow: hidden;
 }
 
 .title_shadow {
@@ -67,7 +69,12 @@
     justify-content: flex-start;
     align-items: center;
     width: 100%;
+    min-height: 0;
     gap: 16px;
+    max-height: calc(100dvh - 40px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
 }
 
 .interaction_buttons_container {
@@ -75,7 +82,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 0 30px;
+    padding: 0 30px 10px 30px;
 }
 
 .dialog_top_wrapper {

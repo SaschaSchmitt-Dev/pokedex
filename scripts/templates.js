@@ -61,12 +61,12 @@ function getPokemonDialogTemplate(data) {
     return `
         <div data-id="overlay-pokemon-name" class="pokemon_dialog dialog_type_${data.primaryType}"
     onclick="event.stopPropagation()">
+    <div class="interaction_buttons_container">
+        <button aria-label="Zurück" class="dialog_interaction_button turn_button" onclick="openPreviousPokemon()">➪</button>
+        <button aria-label="Schließen" class="dialog_interaction_button" onclick="closeDialog('pokemonDetailsDialog')">🗙</button>
+        <button aria-label="Weiter" class="dialog_interaction_button" onclick="openNextPokemon()">➪</button>
+    </div>
     <div class="pokemon_dialog_content">
-        <div class="interaction_buttons_container">
-            <button aria-label="Zurück" class="dialog_interaction_button turn_button" onclick="openPreviousPokemon()">➪</button>
-            <button aria-label="Schließen" class="dialog_interaction_button" onclick="closeDialog('pokemonDetailsDialog')">🗙</button>
-            <button aria-label="Weiter" class="dialog_interaction_button" onclick="openNextPokemon()">➪</button>
-        </div>
         <div class="dialog_top_wrapper">
             <div class="dialog_pokemon_info center_elements">
                 <p class="improve_visibility">(ID: #${data.pokemon.id})</p>
