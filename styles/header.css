@@ -25,7 +25,17 @@ header {
 }
 
 .header_wrapper a {
-    font-size: clamp(2rem, 30vw, 3rem);
+    display: flex;
+    align-items: center;
+}
+
+.header_wrapper a img {
+    width: clamp(1.5rem, 10vw, 3rem);
+    height: clamp(1.5rem, 10vw, 3rem);
+}
+
+.header_wrapper a h1 {
+    font-size: clamp(1.5rem, 10vw, 3rem);
     font-family: 'Orbitron';
     font-weight: 700;
     letter-spacing: 3px;
@@ -63,6 +73,10 @@ header {
 }
 
 @media (max-width: 768px) {
+    header {
+        height: 45px;
+    }
+
     .header_wrapper {
         justify-content: center;
     }
